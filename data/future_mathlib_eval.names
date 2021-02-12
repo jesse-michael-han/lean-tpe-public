@@ -1,0 +1,2807 @@
+is_compl.is_coatom_iff_is_atom 
+lie_ideal.derived_series_eq_derived_series_of_ideal_map lie_ideal lie_algebra set
+category_theory.is_subterminal_of_mono_is_terminal_from category_theory category_theory.category category_theory.limits
+NFA.to_DFA_correct NFA
+is_primitive_root.minpoly_dvd_X_pow_sub_one is_primitive_root is_primitive_root minpoly finset polynomial
+complete_lattice.is_sup_closed_compact.well_founded complete_lattice
+real.tan_add real filter set complex polynomial
+ideal.polynomial.is_maximal_comap_C_of_is_jacobson ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+measure_theory.volume_pi_pi 
+interval_integrable.ae_measurable 
+ordnode.raised_iff ordnode
+ordnode.find_min'_dual 
+finset.card_bUnion finset opposite multiset
+ae_measurable.prod_mk_left measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+real.cos_arctan_pos 
+minpoly.eq_X_sub_C' 
+general_commutator_mono subgroup
+ae_measurable.measurable_at_filter filter topological_space function set measure_theory
+tensor_product.sub_tmul 
+nnreal.sub_add_eq_max nnreal nnreal
+category_theory.comonad.comparison_forget_inv_app 
+list.nth_zero_scanl list list nat function
+parser.valid.many_char1 
+power_series.coeff_exp 
+ae_measurable.ennnorm 
+category_theory.limits.preserves_pullback.iso_hom 
+linear_isometry_equiv.isometry 
+ordnode.bounded.dual ordnode ordnode
+mv_polynomial.vanishing_ideal_point_to_point mv_polynomial mv_polynomial ideal
+category_theory.comonad.coalgebra.iso_mk_hom_f 
+finset.prod_sigma' 
+denoms_clearable.add finset polynomial
+linear_isometry.id_comp 
+derived_series_zero 
+nat.dist_tri_left 
+coe_neg_sphere 
+category_theory.under_to_algebra_obj_a 
+category_theory.algebra_equiv_under_counit_iso 
+measure_theory.measure.pi_caratheodory measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+filter.tendsto_lift' filter filter set
+complete_lattice.is_Sup_finite_compact.is_sup_closed_compact complete_lattice
+set.Iio_union_Ioo set set set
+ordnode.sized.balance' ordnode
+function.bijective.prod_comp 
+parser.one_of'_eq_done parser parser parser parse_result
+linear_isometry_equiv.coe_symm_trans 
+ennreal.rpow_pos ennreal filter real
+parser.valid.many_char 
+measurable.inner 
+ae_measurable.mul 
+one_hom.mk_coe 
+eventually_eq.countable_bUnion 
+lie_subalgebra.to_submodule_injective lie_subalgebra
+parser.foldr_core_eq_done parser parser parser parse_result
+category_theory.grothendieck_topology.monotone_close 
+multilinear_map.coe_mk_continuous 
+ordnode.sized.size_eq 
+parser.valid.failure parser.valid parser parser parser parser parse_result
+inv_lt_self 
+category_theory.uncurry_exp_comparison category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+homeomorph.to_equiv_injective 
+submodule.is_closed_orthogonal is_R_or_C has_inner filter inner_product_space real
+linear_isometry_equiv.coe_one 
+metric.exists_ball_inter_eq_singleton_of_mem_discrete 
+matrix.head_neg 
+simple_graph.not_mem_common_neighbors_left simple_graph finset
+equiv.perm.subsingleton_eq_refl 
+ordnode.size_eq_real_size ordnode
+ordnode.all_node4_l ordnode
+measure_theory.is_add_left_invariant_inner_content 
+submodule.findim_add_findim_orthogonal is_R_or_C has_inner filter finite_dimensional inner_product_space real
+real.arcsin_of_le_neg_one real filter set
+enat.dom_coe 
+ess_inf_const_top 
+list.map_prod_left_eq_zip list nat
+perfection_map.comp_equiv 
+has_sum_coe_mul_geometric_of_norm_lt_1 asymptotics metric classical filter finset function set
+subtype.coe_eq_iff 
+linear_map.coe_isometry_of_inner 
+finset.order_emb_of_fin_unique' 
+algebraic_geometry.polynomial.is_open_image_of_Df algebraic_geometry.polynomial algebraic_geometry set ideal prime_spectrum polynomial
+linear_equiv_of_is_basis_comp function set linear_map submodule
+category_theory.mem_ess_image_of_unit_split_mono category_theory category_theory.category category_theory.limits
+lie_algebra.derived_series_def 
+inner_right_of_mem_orthogonal_singleton 
+ordnode.valid'.balance_l ordnode ordnode
+filter.le_limsup_of_frequently_le filter filter filter set
+category_theory.transfer_nat_trans_counit category_theory category_theory category_theory.category
+linear_map.coe_dfinsupp_sum 
+category_theory.coyoneda.iso_comp_punit_inv_app 
+polynomial.span_le_of_coeff_mem_C_inverse polynomial finset add_monoid_algebra finsupp set submodule polynomial
+ae_measurable_smul_const 
+list.tprod.ext list.tprod list list function
+real.sin_order_iso_apply 
+set.Icc_ssubset_Icc_left 
+ae_measurable.ae_inf_principal_eq_mk 
+finset.powerset_len_zero finset finset multiset
+ideal.ring_equiv.bot_maximal_iff 
+list.tprod.fst_mk 
+complete_lattice.is_Sup_finite_compact_iff_all_elements_compact complete_lattice
+mv_power_series.coeff_monomial_ne 
+measure_theory.lintegral_rpow_nnnorm_lt_top_of_snorm'_lt_top measure_theory measure_theory measure_theory
+ideal.mv_polynomial.is_jacobson_mv_polynomial_fin 
+perfection.coeff_frobenius perfection
+lt_neg_iff_add_neg 
+minpoly.gcd_domain_dvd minpoly minpoly minpoly minpoly function set polynomial
+cardinal.eq_zero_or_eq_zero_of_mul_eq_zero cardinal function set
+is_scalar_tower.coe_to_alg_hom' 
+is_alg_closed.algebra_map_surjective_of_is_integral' 
+option.pmap_none 
+ordnode.balance_l_eq_balance ordnode
+subsingleton.pi_single_eq 
+power_series.coeff_inv_units_sub 
+pi_tensor_product.add_tprod_coeff' 
+many_one_equiv_to_nat nat.primrec function computable
+category_theory.adjunction.comonad_ε 
+ae_measurable.max 
+mv_polynomial.zero_locus_bot 
+list.map_prod_right_eq_zip list nat
+closure_operator.closure_inter_le 
+measure_theory.mem_ℒp.add 
+set.pi_update_of_mem set set function set
+equiv_functor.map_equiv.injective equiv_functor function
+parser.many_char1_ne_empty parser parser parser parse_result
+closure_operator.closure_top 
+measurable_equiv.map_apply measurable_equiv measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+ordnode.valid'_singleton 
+local_homeomorph.eventually_ne_nhds_within local_homeomorph filter function set
+linear_equiv_of_is_basis_trans_symm function set linear_map submodule
+real.times_cont_diff_at_arcsin 
+measurable_tprod_mk measurable_singleton_class measurable_space equiv list encodable function set
+finset.card_subtype finset finset nat function subtype multiset
+ennreal.rpow_add_le_add_rpow ennreal finset
+string.nil_as_string_eq_empty 
+lie_ideal.comap_bracket_incl lie_ideal lie_algebra set
+continuous_linear_map.isometry_iff_norm 
+submodule.closure_smul_self_eq 
+abs_eq_self 
+prod.forall' 
+has_deriv_at.eventually_ne asymptotics filter continuous_linear_map set
+ennreal.prod_lt_top 
+ordnode.merge_nil_right 
+filter.eventually_le.compl 
+ordnode.to_list_node ordnode
+nat.not_odd_iff nat
+category_theory.comonad.comparison_forget_hom_app 
+equiv_functor.map_equiv_symm 
+set.Icc_union_Ici' set set set
+perfection.coeff_iterate_frobenius perfection
+option.bind_map_comm option
+analytic_at.differentiable_at 
+ordnode.valid'.of_gt 
+formal_multilinear_series.remove_zero_comp_of_pos formal_multilinear_series filter list formal_multilinear_series
+language.mem_mul language
+ess_sup_const_bot 
+ordnode.sized.dual ordnode
+fixed_points.minpoly_eq_minpoly 
+category_theory.unit_obj_eq_map_unit category_theory category_theory.category category_theory.limits
+parser.valid.char_buf 
+has_deriv_within_at.inner is_R_or_C has_inner filter inner_product_space real
+add_monoid_hom.map_dfinsupp_sum 
+option.bind_id_eq_join option
+parser.valid.eps 
+list.unzip_enum_from_eq_prod list nat
+truncated_witt_vector.char_p_zmod 
+general_commutator_def' subgroup
+lie_algebra.morphism.is_ideal_morphism_def 
+continuous_multilinear_map.comp_along_composition_aux_bound continuous_multilinear_map filter list formal_multilinear_series
+abs_pow 
+ordnode.split_min_eq ordnode
+nat.rec_zero 
+category_theory.is_filtered.of_is_right_adjoint 
+category_theory.has_limits_of_shape_of_reflective 
+pi_nnnorm_const 
+mv_power_series.map_X mv_power_series mv_power_series finsupp
+perfection_map.of 
+measure_theory.snorm_le_snorm_of_exponent_le measure_theory measure_theory measure_theory
+summable_norm_pow_mul_geometric_of_norm_lt_1 asymptotics metric classical filter finset function set
+ordnode.to_list_nil 
+summable_of_is_O 
+is_galois.of_separable_splitting_field_aux is_galois alg_equiv finite_dimensional
+ordnode.node4_l_size ordnode
+measure_theory.regular_inv_iff measure_theory measure_theory has_inv measure_theory.measure function set
+parser.map_eq_done parser parser parser parser parse_result
+lie_submodule.lie_ideal_oper_eq_linear_span lie_submodule lie_submodule set
+separated.union_left 
+finset.singleton_bUnion finset finset nat function subtype multiset
+is_o_pow_const_const_pow_of_one_lt asymptotics metric classical filter finset function set
+perfection.coeff_pow_p' 
+list.tprod.elim_of_mem list.tprod list list function
+exterior_algebra.ι_left_inverse exterior_algebra tensor_algebra
+bool.ff_lt_tt 
+ordnode.raised.right ordnode
+ordnode.all_node3_r 
+differentiable_within_at.norm_square 
+measure_theory.measure.regular.inv 
+ordnode.balanced_sz_down 
+right_inverse_pth_root_frobenius 
+measure_theory.measure_eq_infi' measure_theory measure_theory measurable_space classical filter function set
+quadratic_form.polar_sub_left quadratic_form quadratic_form
+measure_theory.measure.is_add_left_invariant.null_iff_empty 
+ordnode.sized.rotate_r_size ordnode
+is_compl.compl_eq_iff 
+category_theory.adjunction.monad_μ 
+triv_sq_zero_ext.snd_hom_apply 
+composition.eq_single_iff_length composition list
+generalized_continued_fraction.coe_of_h_rat_eq generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+dihedral.order_of_r_one dihedral
+euclidean_geometry.eq_reflection_of_eq_subspace euclidean_geometry affine_subspace inner_product_geometry finite_dimensional
+measurable_update measurable_singleton_class measurable_space equiv encodable function set
+linear_isometry_equiv.symm_apply_apply 
+orthogonal_projection_singleton is_R_or_C has_inner filter inner_product_space real
+closure_operator.monotone 
+parser.one_of_eq_done parser parser parser parse_result
+measure_theory.measure_inv_null measure_theory measure_theory.measure topological_space function set
+ae_measurable_infi 
+category_theory.algebra_equiv_under_unit_iso 
+closure_operator.mem_closed_iff 
+ordnode.sized.node4_l ordnode
+measure_theory.measure.smul_finite measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+real.deriv_arccos real filter set
+inner_eq_norm_mul_iff_of_norm_one is_R_or_C has_inner filter inner_product_space real
+measure_theory.measure.tprod_tprod_le measure_theory.measure measure_theory.measure measure_theory filter list function set measure_theory.outer_measure
+measure_theory.lintegral_rpow_nnnorm_eq_rpow_snorm' measure_theory measure_theory measure_theory
+pi_tensor_product.add_tprod_coeff 
+nonempty_linear_equiv_of_lift_dim_eq function set vector_space submodule
+mv_polynomial.map_esymm mv_polynomial mv_polynomial equiv finset
+measure_theory.is_mul_right_invariant_inv measure_theory measure_theory has_inv measure_theory.measure function set
+parser.many_eq_fail parser parser parser parse_result
+minpoly.eq_of_algebra_map_eq minpoly minpoly minpoly function set polynomial
+mv_polynomial.is_maximal_iff_eq_vanishing_ideal_singleton mv_polynomial mv_polynomial ideal
+nndist_pi_const 
+real.differentiable_on_arcsin 
+nat.gcd_b_zero_left nat
+times_cont_diff.arctan 
+formal_multilinear_series.apply_composition_single formal_multilinear_series filter list
+finset.sum_ite_index 
+ordnode.all_node4_r ordnode
+parser.seq_eq_fail parser parser parser parse_result
+times_cont_mdiff_iff_target charted_space set smooth_manifold_with_corners
+order_dual.preorder.dual_dual 
+list.nth_take list nat function
+set.exists_seq_supr_eq_top_iff_countable set classical encodable function set
+ordnode.valid'.trans_left 
+sum.update_inr_apply_inl 
+pi.one_def 
+lie_algebra.morphism.map_add 
+linear_map.bijective_of_ne_zero 
+algebra.finitely_presented.self algebra.finitely_presented algebra function
+ordnode.valid'.balance ordnode ordnode
+euclidean_domain.mod_add_div 
+finset.compl_ne_univ_iff_nonempty finset
+measure_theory.Lp.coe_fn_sub 
+measure_theory.ae_dirac_eq measure_theory measurable_space classical filter measure_theory.measure function set
+int.not_odd_iff int
+minpoly.monic minpoly minpoly function set polynomial
+Union_compact_covering 
+eq_orthogonal_projection_of_mem_orthogonal' is_R_or_C has_inner filter inner_product_space real
+smooth_iff_target 
+measure_theory.snorm'_le_snorm'_mul_rpow_measure_univ measure_theory measure_theory measure_theory
+int.even_xor_odd int
+mem_sphere_iff_norm metric filter has_norm
+computable.option_get_or_else computable roption denumerable encodable computable
+zsqrtd.lift_apply_apply 
+nat.even_iff_not_odd nat
+measurable_at_filter.filter_mono 
+nsmul_eq_smul_cast function
+measure_theory.snorm_neg measure_theory measure_theory
+dlist_lazy 
+lie_algebra.morphism.ker_coe_submodule 
+algebra.adjoin_res algebra
+ennreal.rpow_add_rpow_le ennreal finset
+measure_theory.Lp.norm_neg measure_theory.Lp measure_theory
+list.length_singleton 
+homeomorph.coe_mul_left 
+inner_left_of_mem_orthogonal_singleton 
+finset.order_emb_of_fin_unique finset finset nat multiset
+lie_ideal.comap_bracket_le lie_ideal lie_algebra set
+minpoly.degree_le_of_ne_zero minpoly minpoly minpoly function set polynomial
+generalized_continued_fraction.int_fract_pair.exists_nth_stream_eq_none_of_rat generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+filter.tendsto.neg_mul_at_bot classical filter topological_space function set
+category_theory.adjunction.comonad_δ 
+alg_equiv.inv_fun_eq_symm 
+set.Ioc_union_Ioi' set set set
+set.sInter_eq_univ 
+measurable_tprod_elim measurable_singleton_class measurable_space equiv list encodable function set
+pow_bit1_neg_iff 
+parser.pure_eq_done 
+ordnode.bounded.mono_right 
+order.ideal.principal_le_iff 
+lie_algebra.derived_series_of_ideal_antimono 
+tensor_product.tmul_sub 
+interval_integral.integral_non_ae_measurable interval_integral interval_integral classical filter topological_space set measure_theory
+perfection.hom_ext 
+lie_ideal.mem_map lie_ideal lie_algebra set
+Module.direct_limit_diagram_obj 
+list.zip_with_cons_cons 
+measure_theory.mem_ℒp_congr_ae 
+real.tendsto_abs_tan_at_top 
+real.differentiable_within_at_arcsin_Iic real filter set
+real.arcsin_eq_neg_pi_div_two 
+ordnode.equiv_iff ordnode
+galois_connection.closure_operator_to_preorder_hom_to_fun 
+measure_theory.snorm_ess_sup_const measure_theory measure_theory measure_theory
+measure_theory.snorm'_lt_top_of_snorm'_lt_top_of_exponent_le measure_theory measure_theory measure_theory
+list.relation_refl_trans_gen_of_exists_chain 
+linear_isometry_equiv.coe_mk 
+set.Ico_union_Ico set set set
+string.to_list_singleton 
+category_theory.has_finite_products_of_has_binary_and_terminal category_theory category_theory category_theory category_theory.category category_theory.limits
+measure_theory.is_mul_left_invariant_inv measure_theory measure_theory has_inv measure_theory.measure function set
+ball_prod_same metric classical filter topological_space has_dist set
+language.supr_mul language
+times_cont_diff_within_at.norm_square 
+measure_theory.measure.neg_neg 
+filter.liminf_le_of_frequently_le 
+asymptotics.bound_of_is_O_nat_at_top asymptotics filter set
+algebraic_geometry.polynomial.comap_C_mem_image_of_Df 
+simple_graph.compl_involutive 
+ordnode.any.imp 
+NFA.mem_step_set NFA
+real.surj_on_tan real filter set complex polynomial
+mv_polynomial.rename_esymm mv_polynomial mv_polynomial equiv finset
+order_dual.linear_order.dual_dual 
+real.lt_arcsin_iff_sin_lt 
+nat.fib_coprime_fib_succ nat
+parser.orelse_pure_eq_fail parser parser parser parse_result
+many_one_reducible_to_nat_to_nat 
+ordnode.balanced_sz_zero ordnode
+parser.seq_eq_done parser parser parser parse_result
+parser.foldr_eq_fail_of_valid_at_end parser parser parser parse_result
+linear_isometry_equiv.lipschitz 
+option.map_pbind option option
+probability_theory.indep_sets.union probability_theory probability_theory measurable_space measure_theory
+measure_theory.is_mul_left_invariant.inv measure_theory measure_theory has_inv measure_theory.measure function set
+ring_equiv.to_ring_hom_comp_symm_to_ring_hom ring_equiv ring_equiv opposite
+nat.modeq.modeq_one 
+measure_theory.snorm_ess_sup_add_le measure_theory measure_theory measure_theory
+real.differentiable_at_arcsin 
+ordnode.valid'.node4_l_lemma₄ ordnode ordnode
+ordnode.sized.dual_iff ordnode
+measure_theory.snorm_const measure_theory measure_theory measure_theory
+measure_theory.snorm'_const_of_probability_measure measure_theory measure_theory measure_theory
+complex.cos_eq complex is_absolute_value finset cau_seq complex real
+ordnode.insert_with.valid_aux ordnode ordnode
+self_le_add_left 
+probability_theory.indep_sets.indep probability_theory probability_theory measurable_space measure_theory
+ordnode.valid'.rotate_l_lemma₄ ordnode ordnode
+filter.tendsto_lift filter filter set
+filter.tendsto.div_at_top classical filter topological_space function set
+galois_connection.l_limsup_le filter set
+continuous_linear_map.has_fpower_series_on_ball continuous_linear_map asymptotics filter set
+subgroup.mem_sup subgroup subgroup group set
+measure_theory.measure.sigma_finite_of_countable measure_theory.measure measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+measure_theory.mem_ℒp.const_smul 
+is_simple_lattice_iff_is_atom_top 
+DFA.to_NFA_eval_from_match DFA
+general_commutator_le_right subgroup
+ae_measurable.comp_measurable 
+linear_isometry.coe_id 
+asymptotics.is_O_one_nat_at_top_iff asymptotics filter set
+measure_theory.lintegral_lintegral_mul measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+category_theory.coalgebra_to_over_obj 
+measure_theory.Lp.coe_fn_zero 
+ennreal.le_rpow_self_of_one_le ennreal filter real
+submodule.findim_add_findim_orthogonal' is_R_or_C has_inner filter finite_dimensional inner_product_space real
+parser.valid.digit 
+finset.order_emb_of_fin_singleton finset finset nat multiset
+measure_theory.measure.neg_apply 
+measure_theory.is_add_right_invariant_neg 
+language.one_add_star_mul_self_eq_star language
+category_theory.SheafOfTypes_bot_equiv_unit_iso_inv_app 
+ae_measurable.ae_mem_imp_eq_mk 
+linear_isometry_equiv.map_eq_zero_iff 
+eventually_le.countable_bInter filter set
+pow_bit1_nonpos_iff nat int
+ae_measurable_of_tendsto_metric_ae measurable_space metric classical filter emetric topological_space function set measure_theory
+complex.isometry_of_real 
+exists_eq_right_right' 
+is_compact.measure_lt_top_of_nhds_within measurable_space metric classical filter emetric topological_space function set measure_theory
+equiv_functor.map_equiv_refl equiv_functor equiv_functor function
+pi.sub_def 
+language.mem_one language
+summable_pow_mul_geometric_of_norm_lt_1 
+power_series.map_exp power_series power_series
+ordnode.valid'.glue 
+set.is_simple_lattice_Iic_iff_is_atom 
+lie_submodule.coe_to_submodule_eq_iff lie_submodule
+nhds_within_of_mem_discrete 
+is_simple_module.nontrivial 
+measure_theory.snorm'_eq_zero_of_ae_zero' measure_theory measure_theory measure_theory
+nat.even_or_odd' nat
+ae_measurable.norm 
+has_fpower_series_at.has_strict_fderiv_at asymptotics metric filter continuous_linear_map set
+ordnode.length_to_list' ordnode
+ae_measurable.ae_eq_mk 
+lie_algebra.morphism.map_le_ideal_range 
+perfection_map.equiv_apply 
+parser.foldl_core_eq_done parser parser parser parse_result
+is_scalar_tower.of_algebra_map_eq' 
+filter.tendsto_bit0_at_top 
+submodule.span_zero_singleton submodule submodule function set
+measure_theory.lintegral_prod' measure_theory measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+measure_theory.measure.inv_apply measure_theory.measure measure_theory has_inv measure_theory.measure function set
+emetric.ball_prod_same 
+real.arcsin_eq_iff_eq_sin real filter set
+category_theory.is_filtered.of_right_adjoint category_theory.is_filtered category_theory category_theory.limits
+multilinear_map.map_update_sum multilinear_map multilinear_map multilinear_map finset fin function set fintype
+generalized_continued_fraction.terminates_of_rat 
+minpoly.coeff_zero_ne_zero minpoly minpoly minpoly function set polynomial
+parser.valid.bind parser.valid parser parser parser parser parse_result
+minpoly.eq_X_sub_C 
+formal_multilinear_series.norm_le_div_pow_of_pos_of_lt_radius 
+continuous_linear_map.fpower_series_radius 
+list.reduce_option_length_lt_iff list nat function
+real.volume_pi_Ioo 
+pi_tensor_product.lift_aux_tprod_coeff pi_tensor_product pi_tensor_product function multilinear_map
+isometric.comp_continuous_on_iff 
+measure_theory.lintegral_one measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+measure_theory.simple_func.sub_apply 
+measurable_of_not_nonempty measurable_singleton_class measurable_space equiv encodable function set
+is_o_pow_pow_of_abs_lt_left asymptotics metric classical filter finset function set
+parser.sep_by1_eq_done parser parser parser parse_result
+matrix.tail_add 
+mv_polynomial.vanishing_ideal_zero_locus_eq_radical mv_polynomial mv_polynomial ideal
+ae_measurable.is_glb measurable_space classical filter topological_space set measure_theory
+analytic_at.differentiable_within_at 
+measure_theory.measure.pi_Ico_ae_eq_pi_Icc 
+set.exists_seq_cover_iff_countable 
+measure_theory.is_mul_left_invariant.null_iff_empty measure_theory measure_theory has_inv measure_theory.measure function set
+asymptotics.is_O_top 
+linear_isometry.edist_map 
+minpoly.not_is_unit minpoly minpoly minpoly function set polynomial
+parser.valid.foldl_core 
+finset.prod_to_finset_eq_subtype finset
+ennreal.rpow_left_injective ennreal filter real
+measure_theory.measure.tprod_nil 
+real.arcsin_le_iff_le_sin real filter set
+equiv_functor.map_equiv_trans equiv_functor equiv_functor function
+derived_series_one 
+inner_right_apply 
+real.times_cont_diff_at_arcsin_iff 
+power_series.coeff_monomial_same 
+parser.valid.seq 
+ideal.quotient.lift_surjective ideal.quotient ideal function set
+ae_measurable_binfi measurable_space classical filter topological_space set measure_theory
+mv_polynomial.is_symmetric.map mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+ae_measurable_comp_iff_of_closed_embedding measurable_space classical filter topological_space set measure_theory
+measure_theory.lintegral_add' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+linear_isometry_equiv.surjective 
+set.Icc_union_Icc' set set set
+fin.fin_append_apply_zero 
+linear_equiv.coe_of_injective_endo 
+isometric.diam_image 
+asymptotics.is_O_nat_at_top_iff asymptotics filter set
+option.bind_eq_bind 
+algebra.finitely_presented.equiv algebra.finitely_presented algebra function
+formal_multilinear_series.radius_eq_top_of_forall_image_add_eq_zero 
+mv_polynomial.is_symmetric.zero mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+formal_multilinear_series.is_o_of_lt_radius formal_multilinear_series asymptotics filter set
+complete_lattice.finset_sup_compact_of_compact complete_lattice
+filter.eventually_all_finite filter interactive tactic set
+category_theory.grothendieck_topology.is_closed_pullback category_theory.grothendieck_topology category_theory
+ideal.mv_polynomial.quotient_mk_comp_C_is_integral_of_jacobson ideal.mv_polynomial ideal mv_polynomial submonoid ring_hom localization_map polynomial
+is_atom.disjoint_of_ne 
+probability_theory.indep_sets.Union probability_theory probability_theory measurable_space measure_theory
+lie_submodule.of_bot_eq_bot lie_submodule lie_submodule set
+neg_lt_iff_pos_add 
+submodule.orthogonal_orthogonal_monotone 
+is_galois.tfae is_galois alg_equiv finite_dimensional
+mv_power_series.coeff_monomial_mul mv_power_series mv_power_series finsupp
+set.Iic_union_Icc set set set
+composition.blocks_fun_mem_blocks 
+measure_theory.coe_nnnorm_ae_le_snorm_ess_sup 
+parser.foldl_eq_done parser parser parser parse_result
+lie_ideal.map_coe_submodule lie_ideal lie_algebra set
+restrict_apply_of_is_null_measurable measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+filter.tendsto.mul_at_bot classical filter topological_space function set
+ordnode.dual_erase_max ordnode
+ess_inf_congr_ae 
+polynomial.erase_lead_card_support' 
+real.arcsin_lt_pi_div_two real filter set
+minpoly.zero minpoly minpoly minpoly function set polynomial
+alg_hom.alg_equiv.of_injective_apply 
+measure_theory.measure.regular.neg 
+equiv.mul_right_symm_apply 
+ennreal.add_rpow_le_rpow_add ennreal finset
+cmp_le_eq_cmp 
+language.le_add_congr 
+ideal.polynomial.comp_C_integral_of_surjective_of_jacobson ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+mv_polynomial.pempty_alg_equiv_symm_apply 
+option.join_ne_none' option
+ae_measurable_zero measure_theory.has_no_atoms measure_theory.measure_space measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+concave_on_of_deriv_antimono asymptotics metric filter continuous_linear_map set
+option.bind_pmap option option
+real.arccos_eq_zero real filter set
+differentiable_on.norm_square 
+parser.guard_eq_fail parser parser parser parse_result
+ae_measurable.congr 
+measure_theory.Lp.coe_fn_add 
+measure_theory.measure.ae_eq_pi 
+polynomial.eq_of_monic_of_dvd_of_nat_degree_le polynomial polynomial finset multiset
+composition.eq_ones_iff_length composition list
+inner_right_coe 
+parser.valid.sep_by 
+lie_ideal.comap_bracket_incl_of_le lie_ideal lie_algebra set
+int.even_or_odd 
+lie_ideal.map_comap_eq lie_ideal lie_algebra set
+real.coe_tan_local_homeomorph 
+has_fderiv_at.arctan 
+nonempty_linear_equiv_of_dim_eq 
+is_o_pow_const_mul_const_pow_const_pow_of_norm_lt asymptotics metric classical filter finset function set
+order_iso.to_equiv_symm 
+perfection_map.lift_apply 
+set.to_finset_union set set function set
+list.tprod.snd_mk 
+measure_theory.lintegral_map' 
+real.volume_pi_Ico_to_real real classical filter set ennreal measure_theory
+ring.fractional_ideal.eq_one_div_of_mul_eq_one ring.fractional_ideal ring.fractional_ideal ring set localization_map submodule
+lie_ideal.derived_series_eq_bot_iff lie_ideal lie_algebra set
+ae_measurable.add 
+linear_isometry_equiv.coe_refl 
+dihedral.sr_mul_self dihedral
+lie_ideal.comap_map_eq lie_ideal lie_algebra set
+with_top.mul_lt_top with_top canonically_ordered_add_monoid nonneg_add_comm_group
+map_derived_series_eq 
+complex.tan_eq complex filter set
+filter.zero_pow_eventually_eq 
+eq_singleton_bot_of_Sup_eq_bot_of_nonempty has_Sup has_Inf set
+ae_measurable.ennreal_coe 
+parser.valid.foldl_core_zero 
+isometric.diam_univ 
+parser.valid.sat parser.valid parser parser parser parser parse_result
+homeomorph.comap_nhds_eq homeomorph filter set
+generalized_continued_fraction.exists_gcf_pair_rat_eq_of_nth_conts_aux generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+linear_isometry.diam_range 
+equiv.perm.sign_trans equiv.perm equiv.perm equiv finset function fintype
+parser.orelse_eq_done parser parser parser parse_result
+perfection_map.map_eq_map perfection_map
+ordnode.insert'.valid ordnode ordnode
+ordnode.bounded.to_lt 
+ordnode.bounded.weak_left ordnode ordnode
+lie_ideal.comap_bracket_eq lie_ideal lie_algebra set
+polynomial.nat_degree_X_pow 
+finset.card_lt_iff_ne_univ 
+function.surjective.image_preimage 
+equiv.subsingleton.symm 
+continuous_on.integral_sub_linear_is_o_ae 
+ordnode.valid'.mono_right 
+ae_measurable.inv 
+one_le 
+rel_iso.default_def 
+open_map_of_strict_fderiv 
+ordnode.size_balance_l ordnode
+lie_algebra.derived_series_of_ideal_add_le_add lie_algebra set
+measure_theory.measure.ae_eq_set_pi 
+measure_theory.map_prod_inv_mul_eq 
+measure_theory.mem_ae_dirac_iff measure_theory measurable_space classical filter measure_theory.measure function set
+measure_theory.Lp.mem_Lp_iff_snorm_lt_top 
+measure_theory.measure.measure_inter_eq_zero_of_restrict 
+simple_graph.ext 
+lt_neg_iff_add_neg' 
+ne_iff_lt_iff_le 
+eq_of_deriv_within_eq asymptotics metric filter continuous_linear_map set
+filter.tendsto_abs_at_bot_at_top 
+has_strict_deriv_at.map_nhds_eq 
+has_fpower_series_at.has_strict_deriv_at 
+list.nth_le_range' list nat
+orthogonal_projection_mem_subspace_eq_self is_R_or_C has_inner filter inner_product_space real
+le_inv_iff_mul_le_one' 
+parser.success_iff parser parser parser parse_result
+list.nth_le_fin_range list nat
+category_theory.grothendieck_topology.close_eq_top_iff_mem category_theory.grothendieck_topology category_theory
+measure_theory.ae_smul_measure_iff measure_theory measurable_space classical filter measure_theory.measure function set
+zsqrtd.dmuld zsqrtd zsqrtd
+sigma_compact_space_of_locally_compact_second_countable classical filter topological_space set
+ordnode.valid.right 
+linear_isometry_equiv.map_eq_iff 
+ordnode.valid'.balance_l_aux ordnode ordnode
+derived_series_normal subgroup
+category_theory.unit_transfer_nat_trans category_theory category_theory category_theory.category
+linear_map.ker_le_iff linear_map linear_map function set submodule
+is_scalar_tower.coe_to_alg_hom 
+lie_algebra.morphism.map_smul 
+parser.and_then_success parser parser parser parser parse_result
+lie_algebra.morphism.le_ker_iff lie_algebra.morphism lie_algebra set
+matrix.dot_product_eq_zero_iff 
+category_theory.transfer_nat_trans_self_symm_id category_theory category_theory category_theory.category
+map_mul_left_nhds_one classical filter topological_space function set topological_add_group topological_group
+alg_equiv.restrict_normal_commutes 
+ordnode.valid'.balance_r_aux ordnode ordnode
+mv_polynomial.point_to_point_zero_locus_le 
+option.pmap_map option option
+normed_field.nnnorm_hom_apply 
+measure_theory.set_integral_congr 
+is_atomistic_dual_iff_is_coatomistic is_coatomistic is_atomic is_atomistic is_coatomic
+solvable_of_solvable_injective subgroup
+finite_dimensional.nonempty_continuous_linear_equiv_iff_findim_eq 
+zsqrtd.to_real_apply 
+ennreal.limsup_add_le 
+ae_measurable.measurable_mk 
+measurable.measurable_at_filter 
+re_inner_eq_norm_add_mul_self_sub_norm_mul_self_sub_norm_mul_self_div_two is_R_or_C has_inner filter inner_product_space real
+fderiv_inner_apply is_R_or_C has_inner filter inner_product_space real
+mv_polynomial.radical_le_vanishing_ideal_zero_locus mv_polynomial mv_polynomial ideal
+category_theory.obj.monad_η_app 
+filter.tendsto.inner 
+minpoly.unique minpoly minpoly minpoly function set polynomial
+minpoly.ne_zero 
+real.strict_mono_decr_on_arccos 
+measure_theory.snorm'_congr_ae measure_theory measure_theory
+parser.pure_ne_fail parser parser parser parse_result
+measure_theory.pi_premeasure_pi_eval measure_theory filter function set measure_theory.outer_measure
+ordnode.valid'.left 
+add_monoid_hom.finsupp_sum_apply 
+measure_theory.snorm_ess_sup_eq_zero_iff measure_theory measure_theory measure_theory
+equiv.perm.refl_mul 
+lie_algebra.morphism.ker_le_comap 
+topological_space.countable_cover_nhds topological_space classical filter topological_space set
+interval_integral.differentiable_on_integral_of_continuous 
+parser.valid.foldr_core 
+sum.update_inl_apply_inr 
+order_iso.coe_trans 
+rel_iso.eq_iff_eq 
+measure_theory.measure.sigma_finite_of_not_nonempty measure_theory.measure measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+set.finite.eventually_all 
+ordnode.valid.dual 
+formal_multilinear_series.le_radius_of_is_O 
+equiv.equiv_congr_refl_right 
+ordnode.insert_with.valid 
+probability_theory.indep.indep_sets 
+linear_map.coe_comp_alternating_map 
+intermediate_field.lifts.eq_of_le 
+ordnode.sized.rotate_r ordnode
+map_add_left_nhds_zero 
+category_theory.comonad.coalgebra.iso_mk_inv_f 
+bool.le_tt 
+homeomorph.shear_add_right_symm_coe 
+invertible_of_principal 
+has_fderiv_within_at.inner 
+is_primitive_root.minpoly_dvd_mod_p 
+lie_ideal.derived_series_eq_derived_series_of_ideal_comap lie_ideal lie_algebra set
+measure_theory.measure.pi'_pi measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+ess_inf_measure_zero 
+is_simple_lattice_iff_is_coatom_bot 
+real.le_arcsin_iff_sin_le real filter set
+measure_theory.measure.haar_measure_unique measure_theory.measure measure_theory.measure measure_theory measurable_space has_inv measure_theory.measure.haar topological_space function set
+equiv.perm.trans_inv 
+set.Icc_ssubset_Icc_right 
+category_theory.limits.pullback_comparison_comp_fst_assoc 
+ennreal.of_real_sum_of_nonneg ennreal ennreal classical finset set
+parser.valid.mono_done parser.valid parser parser parser parser parse_result
+finset.order_emb_of_fin_last finset finset nat multiset
+dist_pi_const metric classical filter finset topological_space has_dist set
+equiv.perm.inv_trans 
+real.zero_eq_arcsin_iff 
+category_theory.functor.closed_sieves_obj 
+ae_measurable.mono_set 
+is_coatom.sup_eq_top_of_ne 
+ordnode.delta_lt_false ordnode
+asymptotics.is_o_norm_pow_id asymptotics filter set
+parser.mmap'_eq_done parser parser parser parse_result
+ordnode.raised.dist_le ordnode
+mv_polynomial.C_surjective_fin_0 
+denoms_clearable_nat_degree 
+polynomial.aeval_comp 
+list.nth_le_pmap list nat function
+ae_measurable.ennreal_mul 
+finite_dimensional.nonempty_continuous_linear_equiv_of_findim_eq 
+witt_vector.from_padic_int_comp_to_padic_int_ext witt_vector truncated_witt_vector
+is_solvable_def 
+list.filter_map_append list nat function
+finset.preimage_univ finset finset function set
+filter.lift'_infi_powerset 
+is_galois.of_fixed_field_eq_bot is_galois alg_equiv finite_dimensional
+lt_inv_iff_mul_lt_one 
+measure_theory.is_add_left_invariant.neg 
+minpoly.unique' 
+set.Ioo_union_Ioi set set set
+ordnode.all_iff_forall ordnode
+ideal.is_prime_map_C_of_is_prime 
+simple_graph.common_neighbors_eq 
+complex.tan_add complex filter set
+le_mul_left 
+real.volume_pi_Ioc 
+affine.simplex.face_points' 
+matrix.head_fin_const 
+list.zip_with_nil_left 
+one_lt_iff_ne_one 
+option.pmap_some 
+ae_seq.mk_eq_fun_of_mem_ae_seq_set ae_seq ae_seq measure_theory
+linear_isometry_equiv.symm_symm 
+list.lt_length_right_of_zip_with list nat
+ordnode.find_min'_all 
+parser.valid.and_then 
+units.coe_map_inv 
+fintype.prod_sum_elim finset
+int.add_div_of_dvd_left int nat
+lie_subalgebra.smul_mem 
+category_theory.functor.ess_image.of_nat_iso 
+add_units.mk_coe 
+equiv.perm.is_cycle.exists_pow_eq equiv.perm equiv.perm equiv finset function
+matrix.dot_product_std_basis_eq_mul matrix function set linear_map submodule
+ae_measurable_smul_measure_iff 
+order.ideal.sup_mem order.ideal order.ideal order
+category_theory.limits.diagram_iso_cospan_hom_app 
+real.pi_div_two_eq_arcsin 
+measure_theory.ae_eq_dirac' 
+option.join_pmap_eq_pmap_join option option
+formal_multilinear_series.radius_eq_liminf formal_multilinear_series asymptotics filter
+ordnode.dual_rotate_l ordnode
+real.tan_pi_div_two real filter set
+linear_isometry_equiv.dist_map 
+regular_expression.matches_mul_def 
+measure_theory.mem_ℒp_const measure_theory measure_theory measure_theory
+matrix.dot_product_std_basis_one matrix function set linear_map submodule
+closure_operator.le_closure 
+measure_theory.lintegral_const_mul'' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+parser.not_failure_eq_done parser parser parser parse_result
+finset.nat.sum_antidiagonal_eq_sum_range_succ 
+tendsto_abs_nhds_within_zero 
+lie_submodule.mem_coe_submodule 
+category_theory.transfer_nat_trans_self_symm_comp category_theory category_theory category_theory.category
+exists_unique_false 
+bex_or_left_distrib 
+real.monotone_arcsin 
+measure_theory.self_mem_ae_restrict measure_theory measurable_space classical filter measure_theory.measure function set
+measure_theory.measure.is_mul_left_invariant_haar_measure measure_theory.measure measure_theory measurable_space has_inv measure_theory.measure.haar topological_space function set
+minpoly.mem_range_of_degree_eq_one minpoly minpoly function set polynomial
+measure_theory.ae_eq_set measure_theory measurable_space classical filter measure_theory.measure function set
+continuous_at.inner 
+probability_theory.indep_sets.symm probability_theory probability_theory measurable_space measure_theory
+norm_eq_of_mem_sphere 
+lie_subalgebra.coe_injective lie_subalgebra
+ennreal.le_rpow_one_div_iff ennreal filter real
+dense.inter_nhds_nonempty 
+interval_integral.continuous_on_integral_of_continuous 
+category_theory.grothendieck_topology.close_apply 
+ideal.polynomial.quotient_mk_comp_C_is_integral_of_jacobson ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+perfection_map.comp_map 
+findim_span_singleton finset module cardinal function is_noetherian vector_space finite_dimensional submodule
+general_commutator_le_inf subgroup
+homeomorph.is_open_image homeomorph filter set
+units.mk_coe 
+category_theory.SheafOfTypes_to_presheaf_obj 
+measure_theory.lintegral_supr' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+category_theory.limits.prod_comparison_nat_iso_inv_app 
+string.head_empty 
+interval_integral.integral_eq_sub_of_has_deriv_right_of_le interval_integral asymptotics classical filter topological_space continuous_linear_map set measure_theory
+real.times_cont_diff_at_arccos 
+closure_operator.top_mem_closed 
+set.mk_preimage_tprod set list function
+measurable_equiv.self_comp_symm 
+set.pi_inter_distrib set set function set
+continuous.inner 
+submodule.span_eq_supr_of_singleton_spans submodule submodule function set
+ae_measurable.mono_measure 
+submodule.orthogonal_orthogonal_eq_closure is_R_or_C has_inner filter inner_product_space real
+simple_graph.ext_iff 
+measure_theory.Lp.mem_Lp_const 
+category_theory.mem_ess_image_of_unit_is_iso 
+inner_eq_norm_mul_iff is_R_or_C has_inner filter inner_product_space real
+pth_root_pow_p 
+dist_eq_norm' metric filter has_norm
+lie_ideal.map_sup_ker_eq_map lie_ideal lie_algebra set
+homeomorph.image_closure homeomorph filter set
+linear_isometry_equiv.coe_mul 
+real.arcsin_eq_of_sin_eq real filter set
+language.one_add_self_mul_star_eq_star language
+list.scanl_nil 
+many_one_degree.ind_on 
+measure_theory.measurable_measure_mul_right measure_theory measure_theory.measure topological_space function set
+measure_theory.Lp.norm_eq_zero_iff measure_theory.Lp measure_theory
+finset.sup_closed_of_sup_closed finset finset order_dual multiset
+id_eq_sum_orthogonal_projection_self_orthogonal_complement is_R_or_C has_inner filter inner_product_space real
+measurable_equiv.symm_comp_self 
+list.reduce_option_mem_iff list nat function
+simple_graph.common_neighbors_subset_neighbor_set simple_graph finset
+mul_hom.mk_coe 
+ordnode.valid'.balance'_lemma ordnode ordnode
+list.chain_of_chain_pmap list nat
+has_fpower_series_at.fderiv 
+disjoint_nhds_within_of_mem_discrete filter set separated
+measure_theory.exists_pos_set_lintegral_lt_of_measure_lt measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+list.as_string_eq string
+rel_hom.map_sup rel_hom function
+measure_theory.measure.pi_Iio_ae_eq_pi_Iic 
+formal_multilinear_series.remove_zero_apply_composition formal_multilinear_series filter list
+minpoly.one minpoly minpoly minpoly function set polynomial
+equiv.perm.sign_symm 
+self_le_add_right 
+finset.bUnion_mono finset finset nat function subtype multiset
+lie_ideal.of_bot_eq_bot lie_ideal lie_algebra set
+ordnode.all_dual 
+complex.tan_mul_I complex is_absolute_value finset cau_seq complex real
+parser.foldr_eq_fail parser parser parser parse_result
+linear_isometry.dist_map 
+nat.bin_cast_eq nat
+ordnode.bounded.trans_right 
+finset.eq_singleton_iff_nonempty_unique_mem finset nat function subtype multiset
+inner_lt_norm_mul_iff_real 
+finset.card_eq_iff_eq_univ finset function
+intermediate_field.lifts.exists_upper_bound intermediate_field intermediate_field vector_space finite_dimensional polynomial
+witt_vector.witt_sub_vars 
+nat.rec_add_one 
+measure_theory.lintegral_prod_mul measure_theory measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+list.reduce_option_cons_of_some list nat function
+submodule.closure_smul_self_subset filter
+minpoly.coeff_zero_eq_zero minpoly minpoly minpoly function set polynomial
+ordnode.find_min_dual 
+complex.continuous_at_tan complex filter set
+regular_expression.matches_zero_def 
+order_iso.ess_sup_apply measure_theory
+function.update_comp_eq_of_forall_ne' 
+minpoly.degree_le_of_monic minpoly minpoly function set polynomial
+ae_seq.ae_seq_eq_mk_ae ae_seq measure_theory
+homeomorph.to_measurable_equiv_symm_coe 
+ess_sup_congr_ae 
+linear_isometry_equiv.symm_trans 
+dlist_singleton 
+option.join_eq_join option
+parser.many_char_eq_done_empty parser parser parser parse_result
+parser.decorate_errors_success parser parser parser parse_result
+ordnode.valid'.merge_aux₁ ordnode ordnode
+measure_theory.snorm'_eq_zero_of_ae_zero measure_theory measure_theory measure_theory
+measure_theory.snorm'_measure_zero_of_exponent_zero measure_theory measure_theory measure_theory
+lie_algebra.derived_series_of_ideal_le lie_algebra set
+sum.update_inl_comp_inl 
+submodule.orthogonal_eq_bot_iff is_R_or_C has_inner filter inner_product_space real
+measure_theory.measure.ae_le_pi 
+int.sub_div_of_dvd int nat
+mem_sphere_zero_iff_norm metric filter has_norm
+ordnode.bounded.of_gt 
+ordnode.valid'.glue_aux ordnode ordnode
+simple_graph.compl_compl simple_graph simple_graph finset
+ideal.quotient.mkₐ_surjective 
+set.subset_iff_inter_eq_right 
+complex.tendsto_abs_tan_of_cos_eq_zero complex filter set
+perfection.map_apply_coe 
+nat.gcd_a_zero_right nat
+regular_expression.char_rmatch_iff regular_expression
+linear_map.mk_coe 
+or_congr_right 
+ordnode.dual_insert ordnode
+eq_orthogonal_projection_of_eq_submodule is_R_or_C has_inner filter inner_product_space real
+witt_vector.map_fun.sub witt_vector.map_fun witt_vector mv_polynomial function
+mv_polynomial.mem_vanishing_ideal_singleton_iff 
+convex_on_open_of_deriv2_nonneg asymptotics metric filter continuous_linear_map set
+eq_bot_or_eq_of_le_atom 
+to_nat_many_one_equiv nat.primrec function computable
+ennreal.rpow_left_monotone_of_nonneg 
+linear_isometry_equiv.nnnorm_map 
+or_congr_left 
+open_map_of_strict_deriv 
+fin.mk_le_of_le_coe 
+constant_of_has_deriv_right_zero asymptotics metric filter continuous_linear_map set
+times_cont_diff_on.times_cont_mdiff_on 
+nat.cast_le_pow_sub_div_sub 
+option.mem_of_mem_join 
+list.to_list_inv_as_string string
+ess_sup_const measure_theory
+category_theory.uncurry_pre category_theory category_theory category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+has_sum.div_const classical filter finset encodable function
+filter.eventually_le.union 
+category_theory.functor.to_ess_image_map 
+measure_theory.measure.le_sum_apply 
+linear_isometry.comp_assoc 
+category_theory.grothendieck_topology.close_close 
+pi_tensor_product.lift.unique 
+ordnode.sized.rotate_l_size ordnode
+linear_isometry.coe_fn_injective 
+ae_measurable.to_real 
+enat.eq_top_iff_forall_lt enat roption
+linear_isometry.coe_mul 
+measure_theory.is_measurable_to_measurable 
+ordnode.balance_eq_balance' ordnode
+subgroup.normal_closure_eq_self 
+is_coatomic_iff_forall_is_coatomic_Ici 
+ordnode.valid.left 
+regular_expression.plus_def 
+measure_theory.zero_mem_ℒp measure_theory measure_theory measure_theory
+ae_seq.prop_of_mem_ae_seq_set ae_seq ae_seq measure_theory
+option.pbind_map option option
+closure_operator.closed_eq_range_close closure_operator
+is_primitive_root.totient_le_degree_minpoly 
+measure_theory.Lp.antimono 
+eq_singleton_top_of_Inf_eq_top_of_nonempty has_Sup has_Inf set
+set.prod_preimage_right 
+is_atom_dual_iff_is_coatom 
+real.cos_sq_arctan real filter set complex polynomial
+is_principal_inv ring submodule submodule.is_principal ideal
+measure_theory.measure_to_measurable 
+probability_theory.indep_sets_of_indep_sets_of_le_left 
+measure_theory.map_prod_mul_inv_eq measure_theory measure_theory.measure topological_space function set
+complex.im_eq_sub_conj complex
+linear_isometry_equiv.to_linear_equiv_injective 
+real.times_cont_diff_at_tan real filter set complex polynomial
+ordnode.valid'.balance'_aux ordnode ordnode
+ordnode.valid'.node3_r 
+ordnode.all_balance_r ordnode
+pi.div_def 
+ordnode.emem_iff_all 
+parser.fail_iff parser parser parser parse_result
+list.nodup.coe_nth_le_equiv_symm_apply 
+many_one_degree.lift_on_eq 
+set.pi_univ_Ioc_update_right set set function
+measure_theory.measure.pi_hyperplane 
+set.Ico_union_Ici set set set
+measurable_equiv.map_apply_eq_iff_map_symm_apply_eq measurable_equiv measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+finset.order_emb_of_fin_eq_order_emb_of_fin_iff finset finset nat multiset
+finset.val_to_finset finset nat function subtype multiset
+parser.orelse_eq_fail_of_valid_ne parser parser parser parse_result
+continuous_on.abs 
+set.pi_univ_Ioc_update_union set function
+dihedral.order_of_r dihedral
+monoid_hom.dfinsupp_prod_apply 
+min_mul_mul_right 
+asymptotics.is_o_norm_pow_norm_pow 
+pth_root_pow_p' 
+free_group.ext_hom free_group free_group relation
+measure_theory.snorm_exponent_zero measure_theory measure_theory measure_theory
+matrix.head_add 
+parser.foldl_core_succ_eq_fail parser parser parser parse_result
+singleton_mem_nhds_within_of_mem_discrete filter set separated
+pow_bit0_pos 
+ennreal.nhds_within_Ioi_coe_ne_bot 
+measure_theory.ae_zero 
+re_inner_eq_norm_mul_self_add_norm_mul_self_sub_norm_sub_mul_self_div_two is_R_or_C has_inner filter inner_product_space real
+ne_neg_of_ne_zero function
+order_iso.symm_symm order_iso order_iso function
+alternating_map.map_update_sum 
+parser.eof_eq_done parser parser parser parse_result
+ideal.polynomial.is_integral_localization_map_polynomial_quotient ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+category_theory.frobenius_morphism_mate category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+parser.foldr_eq_done parser parser parser parse_result
+order_iso.map_bot' function set
+measure_theory.simple_func.map_add 
+simple_graph.common_neighbors_symm simple_graph finset
+truncated_witt_vector.commutes_symm' truncated_witt_vector truncated_witt_vector
+measurable_of_tendsto_metric_ae 
+ordnode.valid'.rotate_l ordnode ordnode
+finset.piecewise_le_piecewise' finset finset nat function subtype multiset
+emetric.closed_ball_prod_same 
+left_sub_midpoint 
+submonoid.topological_closure_minimal 
+commutator_le_map_commutator subgroup
+truncated_witt_vector.commutes' truncated_witt_vector truncated_witt_vector
+ennreal.mul_div_le ennreal ennreal classical finset set
+order_iso.limsup_apply filter set
+nat.gcd_eq_zero_iff nat
+category_theory.grothendieck_topology.closure_operator_to_preorder_hom_to_fun_apply 
+mv_polynomial.zero_locus_vanishing_ideal_le 
+complete_lattice.is_compact_element_iff_le_of_directed_Sup_le complete_lattice
+real.volume_Iic real classical filter set ennreal measure_theory
+div_sub_same set
+parser.foldr_core_zero_eq_fail parser parser parser parse_result
+has_deriv_within_at_Ioi_iff_Ici asymptotics filter continuous_linear_map set
+inf_sup_assoc_of_le 
+complex.tan_int_mul_pi_div_two complex filter set
+set.nonempty_Union set set tactic auto function set
+has_fpower_series_at.differentiable_at 
+with_top.prod_lt_top 
+div_self_mul_self' function
+pow_bit1_pos_iff 
+category_theory.limits.coprod.functor_obj_map 
+function.embedding.swap_comp 
+top_eq_tt 
+function.injective.swap_apply sum nat function set subtype
+tendsto_pow_const_mul_const_pow_of_abs_lt_one asymptotics metric classical filter finset function set
+ordnode.valid.size_eq 
+alg_equiv.restrict_normal_trans is_scalar_tower polynomial
+category_theory.topology_eq_iff_same_sheaves category_theory
+ennreal.rpow_lt_rpow_iff ennreal filter real
+lie_algebra.derived_series_of_ideal_succ 
+multilinear_map.map_update_zero 
+lie_ideal.map_comap_bracket_eq lie_ideal lie_algebra set
+ordnode.erase_min.valid ordnode ordnode
+ennreal.ae_le_ess_sup 
+filter.tendsto.at_bot_mul_neg classical filter topological_space function set
+category_theory.presieve.is_sheaf_bot category_theory.presieve category_theory category_theory.sieve classical category_theory category_theory.category category_theory.limits opposite
+ordnode.all_rotate_r ordnode
+category_theory.extend_fan_π_app 
+complex.sin_eq complex is_absolute_value finset cau_seq complex real
+measure_theory.measure.univ_pi_Ioi_ae_eq_Ici measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+exterior_algebra.algebra_map_left_inverse exterior_algebra tensor_algebra
+measure_theory.ext_on_measurable_space_of_generate_finite measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+finset.bUnion_inter finset finset nat function subtype multiset
+witt_vector.to_padic_int_comp_from_padic_int_ext witt_vector truncated_witt_vector
+filter.sInter_mem_sets filter set
+finset.coe_fin_range 
+eq_of_has_deriv_right_eq asymptotics metric filter continuous_linear_map set
+mv_power_series.coeff_add_mul_monomial mv_power_series mv_power_series finsupp
+interval_integral.integral_eq_sub_of_has_deriv_at' interval_integral asymptotics classical filter topological_space continuous_linear_map set measure_theory
+inner_eq_sum_norm_sq_div_four is_R_or_C has_inner filter inner_product_space real
+complex.tan_ne_zero_iff complex filter set
+filter.eventually_eq.rfl 
+generalized_continued_fraction.coe_of_rat_eq generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+ae_measurable.const_smul 
+closure_operator.closure_le_closed_iff_le closure_operator
+enat.find_get 
+category_theory.under_to_algebra_map_f 
+asymptotics.is_O_with_map 
+regular_expression.matches_add_def 
+parser.ch_eq_done parser parser parser parse_result
+tensor_algebra.algebra_map_left_inverse tensor_algebra
+is_atomic_dual_iff_is_coatomic is_atomic is_coatomic
+set.subset_iff_to_finset_subset 
+ordnode.bounded.of_lt 
+fderiv_arctan 
+ae_measurable.min 
+linear_map.injective_or_eq_zero linear_map
+lie_submodule.inf_lie lie_submodule lie_submodule set
+measure_theory.Lp.coe_fn_neg 
+matrix.sub_cons matrix matrix
+submodule.singleton_span_is_compact_element submodule set
+tensor_algebra.to_exterior_ι tensor_algebra tensor_algebra
+category_theory.grothendieck_topology.close_is_closed 
+lie_submodule.inf_coe_to_submodule 
+div_le_one_of_le 
+closure_operator.closure_is_closed 
+real.arcsin_proj_Icc real filter set
+lie_submodule.lie_span_mono lie_submodule lie_submodule lie_submodule set
+midpoint_sub_right 
+add_subgroup.mem_sup 
+is_alg_closed.algebra_map_surjective_of_is_integral is_alg_closed polynomial
+mv_power_series.monomial_zero_one 
+asymptotics.is_o_map asymptotics filter set
+submodule.mem_span_finite_of_mem_span submodule submodule submodule function set
+sum.update_inl_apply_inl sum sum function
+compl_compl 
+ring_hom.map_rat_algebra_map 
+is_alg_closed.algebra_map_surjective_of_is_algebraic 
+pow_bit1_nonneg_iff 
+normed_field.nnnorm_div 
+real.lt_arcsin_iff_sin_lt' 
+measure_theory.Lp.mem_ℒp 
+one_add_mul_sub_le_pow nat int
+measure_theory.snorm_eq_zero_iff measure_theory measure_theory measure_theory
+set.Union_eq_empty 
+ae_measurable.prod_swap measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+fin.cast_trans 
+power_series.inv_units_sub_mul_sub power_series power_series
+linear_isometry.ediam_image 
+parser.bind_eq_fail parser parser parser parser parse_result
+local_homeomorph.map_nhds_eq 
+bot_ne_top 
+regular_expression.comp_def 
+category_theory.is_subterminal_of_is_iso_diag category_theory category_theory.category category_theory.limits
+matrix.tail_sub 
+category_theory.coev_app_comp_pre_app 
+probability_theory.Indep_sets.indep_sets probability_theory probability_theory measurable_space measure_theory
+bot_eq_one 
+finset.subset_mul finset is_mul_hom function set
+continuous.abs 
+ae_measurable.smul_measure 
+finset.order_iso_of_fin_symm_apply 
+measure_theory.integrable.tendsto_set_integral_nhds_zero 
+nat.even_xor_odd nat
+ae_seq.ae_seq_eq_mk_of_mem_ae_seq_set ae_seq ae_seq measure_theory
+set.Union_of_singleton_coe set tactic auto function set
+equiv.add_left_symm_apply 
+ennreal.rpow_le_self_of_le_one ennreal filter real
+is_solvable_of_top_eq_bot subgroup
+linear_isometry.map_ne 
+ordnode.valid'.node4_l ordnode ordnode
+category_theory.prod_map_pre_app_comp_ev 
+parser.valid.mono_fail parser.valid parser parser parser parser parse_result
+category_theory.functor.ess_image_inclusion_obj 
+ordnode.find_max'_dual ordnode
+sup_supr 
+isometric.diam_preimage isometric function set
+euclidean_domain.gcd_a_zero_left euclidean_domain euclidean_domain
+smul_orthogonal_projection_singleton is_R_or_C has_inner filter inner_product_space real
+language.le_iff 
+homeomorph.add_left_symm 
+complex.tanh_mul_I complex is_absolute_value finset cau_seq complex real
+add_subgroup.map_eq_bot_iff 
+category_theory.limits.coprod.functor_map_app 
+complete_lattice.compactly_generated_of_well_founded complete_lattice
+nat.gcd_add_mul_self nat
+isometric.to_real_linear_isometry_equiv_symm_apply 
+measure_theory.snorm_add_lt_top measure_theory measure_theory measure_theory
+has_fpower_series_at.eventually 
+linear_isometry.norm_to_continuous_linear_map asymptotics metric filter continuous_linear_map set real
+complex.cos_mul_I complex is_absolute_value finset cau_seq complex real
+enat.eq_top_iff_forall_le 
+filter.tendsto.abs 
+fin.order_embedding_eq 
+ideal.exists_mem_ne_zero_of_ne_bot 
+finset.Ico.coe_eq_Ico finset.Ico finset nat multiset
+linear_isometry_equiv.trans_symm 
+finset.bUnion_filter_eq_of_maps_to finset finset nat function subtype multiset
+intermediate_field.alg_hom_mk_adjoin_splits intermediate_field intermediate_field vector_space finite_dimensional polynomial
+linear_isometry_equiv.coe_trans 
+neg_lt_self 
+category_theory.limits.diagram_iso_span_inv_app 
+zsqrtd.lift_symm_apply_coe 
+DFA.to_NFA_correct DFA
+ordnode.sized.node3_r 
+matrix.vec_head_vec_alt1 
+ideal.quotient.mkₐ_eq_mk 
+option.pmap_eq_none_iff option option
+measurable.ae_eq measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+category_theory.comonad.comparison_obj_a 
+submodule.submodule_topological_closure 
+is_coatomic_dual_iff_is_atomic is_atomic is_coatomic
+simple_graph.not_mem_common_neighbors_right simple_graph finset
+category_theory.algebra_to_under_obj 
+equiv.perm.is_cycle.exists_gpow_eq equiv.perm equiv.perm equiv finset function
+mv_polynomial.zero_locus_vanishing_ideal_galois_connection 
+parser.sep_by1_ne_done_nil parser parser parser parse_result
+measure_theory.pi_premeasure_pi' measure_theory filter function set measure_theory.outer_measure
+ordnode.valid'.right 
+self_le_mul_left 
+closure_operator.mk'_to_preorder_hom_to_fun 
+list.nth_append_right list nat function
+set.finite.preimage_embedding 
+Module.direct_limit_cocone_X 
+has_sum.nonpos 
+real.arcsin_sin' real filter set
+witt_vector.to_padic_int_comp_from_padic_int witt_vector truncated_witt_vector
+submodule.mem_span_mul_finite_of_mem_span_mul submodule submodule submodule algebra set
+measure_theory.measure.pi_Ioo_ae_eq_pi_Icc 
+matrix.head_sub 
+deriv_inner_apply 
+ennreal.limsup_const_mul_of_ne_top ennreal filter
+list.reduce_option_concat list nat function
+enat.coe_lt_iff enat roption
+set.Ioo_union_Ioo set set set
+category_theory.exp_comparison_ev category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+ordnode.bounded.to_nil 
+enat.le_coe_iff enat roption
+ennreal.measurable_inv 
+measure_theory.measure.finite_at_filter.exists_mem_basis 
+affine_subspace.coe_vadd 
+mv_power_series.eq_of_coeff_monomial_ne_zero 
+ordnode.all.imp 
+interval_integral.integral_deriv_eq_sub 
+add_units.coe_map_neg 
+quadratic_form.polar_neg_right quadratic_form quadratic_form
+category_theory.transfer_nat_trans_self_counit category_theory category_theory category_theory.category
+mv_power_series.coeff_mul_monomial mv_power_series mv_power_series finsupp
+monoid_hom.finsupp_prod_apply 
+lie_submodule.well_founded_of_noetherian lie_submodule lie_submodule set
+complex.tan_int_mul_pi complex filter set
+power_series.map_inv_units_sub power_series power_series
+ae_measurable.is_lub measurable_space classical filter topological_space set measure_theory
+parser.many1_eq_fail parser parser parser parse_result
+intermediate_field.lifts.mem_lifts_of_splits 
+parser.bind_eq_bind 
+parser.decorate_error_eq_fail 
+separated.empty_left 
+parser.failure_eq_failure 
+ae_measurable_supr 
+continuous_on.integrable_at_nhds_within asymptotics metric filter topological_space function set measure_theory
+set.Iic_union_Icc' set set set
+finset.image_bUnion_filter_eq 
+mv_polynomial.is_prime.vanishing_ideal_zero_locus 
+real.tan_ne_zero_iff real filter set complex polynomial
+generalized_continued_fraction.exists_rat_eq_nth_numerator generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+is_primitive_root.squarefree_minpoly_mod 
+linear_isometry.injective 
+preorder_hom.iterate_sup_le_sup_iff preorder_hom
+order_iso.symm_apply_eq 
+linear_isometry.comp_id 
+measure_theory.snorm'_neg measure_theory measure_theory
+generalized_continued_fraction.exists_rat_eq_of_terminates generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+option.mem_pmem option option
+has_fpower_series_on_ball.differentiable_on 
+equiv.perm.one_symm 
+has_fderiv_within_at.arctan 
+category_theory.exp_comparison_whisker_left category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+measure_theory.mem_ℒp.mem_ℒp_of_exponent_le measure_theory measure_theory measure_theory
+real.continuous_at_tan real filter set complex polynomial
+pi.zero_def 
+homeomorph.shear_mul_right_symm_coe 
+measure_theory.simple_func.exists_forall_le 
+parser.valid.mmap' parser.valid parser parser parser parser parse_result
+order_dual.cmp_le_flip 
+mv_polynomial.pempty_alg_equiv_apply 
+measurable_at_filter.eventually 
+affine_map.continuous_linear_iff affine_map filter
+measure_theory.snorm'_const_smul measure_theory measure_theory measure_theory
+measure_theory.mem_ℒp.sub measure_theory measure_theory measure_theory measure_theory
+lie_subalgebra.range_incl 
+measure_theory.measure.map_add_left_eq_self 
+polynomial.erase_lead_card_support polynomial polynomial finset finsupp polynomial
+nonempty_measurable_superset 
+normed_field.nnnorm_pow 
+isometric.ediam_preimage isometric function set
+measure_theory.mem_ℒp.integrable 
+measure_theory.measure.map_mono measure_theory.measure measure_theory measurable_space classical filter function set
+parser.foldl_core_zero_eq_done parser parser parser parse_result
+times_cont_diff_at.arctan 
+category_theory.reflects_mono category_theory category_theory.category category_theory.limits
+algebraic_geometry.polynomial.image_of_Df_eq_comap_C_compl_zero_locus algebraic_geometry.polynomial algebraic_geometry set ideal prime_spectrum polynomial
+equiv.equiv_congr_refl equiv function
+has_fpower_series_at.has_deriv_at 
+real.volume_Icc_pi_to_real real classical filter set ennreal measure_theory
+real.arcsin_lt_zero 
+free_algebra.to_tensor_ι free_algebra
+lie_submodule.zero_mem 
+parser.decorate_error_eq_done 
+zero_hom.mk_coe 
+parser.valid.decorate_error 
+alg_hom.coe_mk' 
+multilinear_map.alternatization_def 
+ennreal.rpow_left_strict_mono_of_pos 
+subgroup.mem_sup' subgroup subgroup group set
+real.arcsin_lt_iff_lt_sin 
+parser.decorate_errors_fail parser parser parser parse_result
+ideal.polynomial.is_maximal_comap_C_of_is_maximal ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+category_theory.SheafOfTypes_bot_equiv_inverse_map 
+has_deriv_at.inner is_R_or_C has_inner filter inner_product_space real
+ordnode.bounded.dual_iff ordnode ordnode
+category_theory.topology_of_closure_operator_self category_theory
+measure_theory.pi_premeasure_pi measure_theory filter function set measure_theory.outer_measure
+homeomorph.is_closed_preimage homeomorph filter set
+parser.many1_eq_done parser parser parser parse_result
+real.arccos_inj_on 
+real.tan_eq_zero_iff real filter set complex polynomial
+ess_inf_mono_ae 
+minpoly.over_int_eq_over_rat minpoly minpoly minpoly minpoly function set polynomial
+finset.sum_sigma' 
+orthogonal_projection_unit_singleton is_R_or_C has_inner filter inner_product_space real
+dihedral.r_one_pow dihedral
+ae_measurable_const_smul_iff measurable_space classical filter topological_space set measure_theory
+equiv.perm_congr_symm_apply 
+mv_polynomial.fin_succ_equiv_comp_C_eq_C mv_polynomial mv_polynomial mv_polynomial add_monoid_algebra finsupp function set
+lie_ideal.derived_series_add_eq_bot lie_ideal lie_algebra set
+nnreal.has_sum_of_real_of_nonneg nnreal nnreal metric filter finset topological_space set
+homeomorph.map_nhds_eq homeomorph filter set
+measure_theory.measure.univ_pi_Iio_ae_eq_Iic measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+language.mem_star language
+has_fpower_series_at.is_O_image_sub_norm_mul_norm_sub asymptotics filter set
+polynomial.nat_degree_map_le polynomial polynomial polynomial finset finsupp
+ordnode.insert_eq_insert_with ordnode ordnode
+measure_theory.measure.map_add_right_eq_self 
+concave_on_log_Iio set real
+complex.times_cont_diff_at_tan 
+summable.tsum_mul_left 
+differentiable_at.norm_square 
+category_theory.SheafOfTypes_bot_equiv_unit_iso_hom_app 
+language.star_eq_supr_pow language
+measurable_equiv.map_measurable_equiv_injective measurable_equiv measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+real.times_cont_diff_arctan real filter set complex polynomial
+inv_lt_iff_one_lt_mul 
+ordnode.sized.node3_l 
+measure_theory.mem_ℒp_one_iff_integrable measure_theory measure_theory
+parser.valid.foldl 
+measure_theory.set_lintegral_const measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+eventually_abs_sub_lt classical filter topological_space function set
+category_theory.classifier_is_sheaf category_theory
+measure_theory.ite_ae_eq_of_measure_zero measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+finset.set_bUnion_bUnion 
+fin_succ_equiv_symm_some 
+measure_theory.outer_measure.exists_is_measurable_superset_eq_trim measure_theory.outer_measure measure_theory filter finset encodable function set measure_theory.outer_measure
+order.ideal.sup_mem_iff 
+mv_polynomial.esymm_is_symmetric mv_polynomial mv_polynomial equiv finset
+finset.order_emb_of_fin_zero finset finset nat multiset
+finset.eventually_all 
+real.coe_tan_local_homeomorph_symm 
+ordnode.find_max_dual ordnode
+finset.bUnion_empty 
+lie_algebra.morphism.mem_ideal_range_iff lie_algebra.morphism lie_algebra set
+is_coatom.of_is_coatom_coe_Ici 
+normal.of_is_splitting_field is_scalar_tower polynomial
+is_atom.inf_eq_bot_of_ne 
+multiset.mem_sup multiset order_dual multiset
+minpoly.eq_X_sub_C_of_algebra_map_inj minpoly minpoly minpoly function set polynomial
+nnreal.of_real_coe_nat nnreal
+measure_theory.volume_pi 
+char_p.quotient' char_p
+measure_theory.snorm'_zero measure_theory measure_theory measure_theory
+ae_seq.measurable ae_seq measure_theory
+has_sum.nonneg 
+perfection.lift_apply_apply_coe 
+interval_integral.integral_eq_sub_of_has_deriv_right interval_integral asymptotics classical filter topological_space continuous_linear_map set measure_theory
+invertible_iff_generator_nonzero ring submodule submodule.is_principal ideal
+measure_theory.snorm'_le_snorm'_of_exponent_le measure_theory measure_theory measure_theory
+ideal.jacobson_radical_eq_jacobson 
+has_fderiv_at.eventually_ne normed_field asymptotics metric filter continuous_linear_map set ring normed_ring
+generalized_continued_fraction.int_fract_pair.stream_succ_nth_fr_num_lt_nth_fr_num_rat generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+measure_theory.snorm_add_lt_top_of_one_le 
+parser.valid.one_of' 
+measure_theory.measure.pi_Ioc_ae_eq_pi_Icc 
+ennreal.limsup_eq_zero_iff ennreal filter
+has_sum.norm_le_of_bounded 
+lie_ideal.unique_of_bot lie_ideal lie_algebra set
+measure_theory.is_add_right_invariant.neg 
+finset.card_compl_lt_iff_nonempty 
+max_mul_mul_right 
+measure_theory.measure.tprod_cons 
+real.volume_pi_Ioc_to_real real classical filter set ennreal measure_theory
+option.map_eq_none' option
+ordnode.bounded.mono_left 
+linear_isometry.inner_map_map is_R_or_C has_inner filter inner_product_space real
+alg_hom.mk_coe 
+ae_measurable.sub measurable_space classical filter topological_space set measure_theory
+is_primitive_root.nth_roots_one_eq_bUnion_primitive_roots 
+alternating_map.map_linear_dependent alternating_map function
+language.supr_add 
+real.maps_to_sin_Ioo real filter set
+map_derived_series_le_derived_series subgroup
+orthogonal_projection_bot is_R_or_C has_inner filter inner_product_space real
+formal_multilinear_series.norm_mul_pow_le_of_lt_radius 
+set.Iio_union_Ioo' set set set
+real.arcsin_eq_pi_div_two 
+equiv.perm.one_trans 
+smooth_within_at_iff_target 
+category_theory.monad.algebra.iso_mk_hom_f 
+category_theory.le_topology_of_closed_sieves_is_sheaf category_theory
+formal_multilinear_series.comp_continuous_linear_map_apply 
+lie_ideal.comap_incl_self lie_ideal lie_algebra set
+monoid_hom.coe_dfinsupp_prod 
+closure_operator.id_to_preorder_hom_to_fun 
+linear_isometry.coe_comp 
+is_scalar_tower.coe_restrict_base 
+mv_polynomial.is_symmetric.sub mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+lie_algebra.morphism.map_bot_iff lie_algebra.morphism lie_algebra set
+category_theory.under_to_algebra_obj_A 
+ideal.polynomial.jacobson_bot_of_integral_localization ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+subgroup.subsingleton_iff subgroup
+measure_theory.snorm'_measure_zero_of_pos measure_theory measure_theory measure_theory
+general_commutator_le_left subgroup
+category_theory.comonad.comparison_map_f 
+order_iso.is_simple_lattice 
+finset.sum_to_finset_eq_subtype 
+measure_theory.measure_mul_measure_eq measure_theory measure_theory.measure topological_space function set
+measure_theory.measure.univ_pi_Ioc_ae_eq_Icc measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+tensor_algebra.to_clifford_ι tensor_algebra tensor_algebra
+category_theory.over_to_coalgebra_obj_a 
+ordnode.balanced_sz_up ordnode
+list.nth_le_zip_with list nat
+integrable_zero_measure measure_theory.ae_eq_fun filter emetric topological_space set ennreal measure_theory
+real.differentiable_arctan 
+fderiv_inner_clm_apply 
+regular_expression.zero_def 
+or_iff_right_iff_imp 
+measure_theory.integrable.ae_measurable 
+bex_eq_left 
+has_deriv_within_at.Iio_of_Iic 
+linear_map.surjective_of_ne_zero 
+midpoint_vsub_left 
+ordnode.sized.size_eq_zero ordnode
+finset.tsum_subtype' 
+probability_theory.indep_sets_of_indep_sets_of_le_right 
+subgroup.closure_le_normal_closure subgroup group set
+set.disjoint_pi_univ_Ioc_update_left_right set set function
+finset.inf_eq_Inf finset order_dual multiset
+measure_theory.is_add_left_invariant_neg 
+minpoly.irreducible minpoly minpoly minpoly function set polynomial
+set.subset.eventually_le 
+nsmul_def 
+measure_theory.Lp.snorm_lt_top 
+category_theory.exp_adjunction_unit 
+measure_theory.mem_ℒp.snorm_ne_top 
+measure_theory.Lp.norm_zero measure_theory.Lp measure_theory
+list.length_zip_with list nat
+ae_seq.ae_seq_n_eq_fun_n_ae 
+parser.mmap_eq_done parser parser parser parse_result
+ae_seq.supr ae_seq measure_theory
+parser.many'_eq_done parser parser parser parse_result
+ennreal.ess_sup_add_le 
+category_theory.grothendieck_topology.le_close_of_is_closed 
+equiv.perm.refl_inv 
+function.bijective.sum_comp 
+ennreal.eq_top_of_forall_nnreal_le 
+measure_theory.Lp.ae_measurable 
+ennreal.div_rpow_of_nonneg ennreal filter real
+measure_theory.snorm'_const measure_theory measure_theory measure_theory
+lie_subalgebra.add_mem 
+measure_theory.snorm_zero measure_theory measure_theory measure_theory
+ideal.quotient.mkₐ_ker 
+measure_theory.measure.ae_pi_le_infi_comap 
+intermediate_field.aeval_gen_minpoly intermediate_field intermediate_field vector_space finite_dimensional polynomial
+monoid_hom.coe_finsupp_prod 
+minpoly.eq_zero 
+ae_measurable_const 
+real.has_deriv_within_at_arcsin_Iic real filter set
+linear_isometry.map_eq_iff 
+minpoly.min minpoly minpoly function set polynomial
+generalized_continued_fraction.exists_rat_eq_nth_denominator generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+real.differentiable_at_arccos 
+real.arcsin_le_neg_pi_div_two 
+measure_theory.measure.pi_eval_preimage_null measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+homeomorph.nhds_eq_comap homeomorph filter set
+real.arcsin_mem_Icc 
+ball_or_left_distrib 
+filter.tendsto_bit0_at_bot 
+pi_tensor_product.smul_tprod_coeff' 
+measurable.eval 
+measure_theory.mem_ℒp.neg measure_theory measure_theory measure_theory
+norm_sub_eq_zero_iff metric filter has_norm
+real.has_deriv_within_at_arccos_Ici 
+measure_theory.measure.is_add_left_invariant.null_iff 
+composition.order_emb_of_fin_boundaries composition list
+equiv.equiv_congr_refl_left 
+and_congr_left 
+parser.many_char_eq_done_not_empty parser parser parser parse_result
+int.div_add_mod 
+real.has_deriv_within_at_arccos_Iic 
+lie_ideal.mem_comap 
+is_open_map.of_nhds_le 
+measure_theory.measure.regular_of_left_invariant measure_theory.measure measure_theory.measure measure_theory measurable_space has_inv measure_theory.measure.haar topological_space function set
+finset.bUnion_singleton_eq_self finset finset nat function subtype multiset
+ordnode.valid'.rotate_l_lemma₃ ordnode ordnode
+finset.bUnion_val 
+truncated_witt_vector.zmod_equiv_trunc_apply truncated_witt_vector truncated_witt_vector
+probability_theory.indep_of_indep_of_le_left 
+measure_theory.snorm'_eq_zero_iff 
+int.even_xor_odd' int
+parser.valid.orelse parser.valid parser parser parser parser parse_result
+set.pi_univ 
+free_algebra.algebra_map_left_inverse free_algebra free_algebra
+ennreal.lintegral_Lp_mul_le_Lq_mul_Lr ennreal finset measure_theory
+measure_theory.outer_measure.is_add_left_invariant_of_content 
+measure_theory.measure_mul_right_null measure_theory measure_theory.measure topological_space function set
+order_iso.is_coatom_iff 
+finset.prod_bUnion finset finset
+concave_on_of_deriv2_nonpos asymptotics metric filter continuous_linear_map set
+filter.eventually_all filter interactive tactic set
+dense.bUnion_uniformity_ball uniform_space classical filter set
+ae_measurable.smul 
+Module.direct_limit_diagram_map 
+parser.valid.guard parser.valid parser parser parser parser parse_result
+list.map_prefix list nat function
+linear_map.isometry_of_inner_to_linear_map 
+parser.foldr_core_zero_eq_done parser parser parser parse_result
+eventually_eq.countable_bInter 
+linear_isometry.continuous 
+separated.symm 
+composition.one_le_blocks_fun 
+real.volume_Iio real classical filter set ennreal measure_theory
+linear_isometry.map_smul 
+parser.any_char_eq_done parser parser parser parse_result
+fin.zero_add fin fin nat fin function set
+probability_theory.indep.symm 
+continuous_multilinear_map.comp_along_composition_apply 
+fin.zero_mul fin fin nat fin function set
+mv_polynomial.map_mv_polynomial_eq_eval₂ mv_polynomial polynomial
+finset.image_bUnion finset finset nat function subtype multiset
+linear_isometry.map_sub 
+real.arcsin_lt_iff_lt_sin' 
+ideal.exists_mem_ne_zero_iff_ne_bot ideal function set
+category_theory.functor.closed_sieves_map_coe 
+ordnode.bounded.weak_right ordnode ordnode
+complex.tan_add_mul_I complex filter set
+ordnode.valid'.node3_l 
+function.injective.swap_comp 
+parser.valid.decorate_errors parser.valid parser parser parser parser parse_result
+option.join_ne_none option
+is_compact.measure_lt_top 
+parser.many_eq_done parser parser parser parse_result
+set.subsingleton.induction_on set function
+is_o_pow_pow_of_lt_left 
+continuous_multilinear_map.to_multilinear_map_linear_apply 
+real.continuous_arccos 
+category_theory.grothendieck_topology.close_eq_self_of_is_closed 
+category_theory.is_subterminal.mono_is_terminal_from 
+ennreal.of_real_coe_nat ennreal ennreal classical set
+option.join_join option
+ennreal.nhds_within_Ioi_zero_ne_bot 
+measure_theory.lintegral_eq_zero_of_is_mul_left_invariant measure_theory measure_theory has_inv measure_theory.measure function set
+sum.update_inr_comp_inr 
+parser.map_const_eq_done parser parser parser parser parse_result
+finite_dimensional.nonempty_linear_equiv_of_findim_eq finite_dimensional finset module cardinal function is_noetherian vector_space finite_dimensional submodule
+computable.subtype_mk computable roption denumerable encodable computable
+measure_theory.measure.regular.exists_compact_not_null measure_theory.measure.regular measure_theory.measure measure_theory measurable_space metric classical filter emetric topological_space function set measure_theory
+measure_theory.measure.inv_inv measure_theory.measure measure_theory has_inv measure_theory.measure function set
+add_subgroup.subsingleton_iff 
+finset.inter_bUnion finset finset nat function subtype multiset
+ordset.empty_iff ordset ordnode
+monoid_hom.coe_prod 
+lie_ideal.map_comap_incl lie_ideal lie_algebra set
+set.Icc_union_Icc set set set
+measure_theory.snorm_ess_sup_measure_zero measure_theory measure_theory measure_theory
+linear_equiv_of_is_basis_refl function set linear_map submodule
+parser.valid.one_of 
+nat.add_div_of_dvd_left nat
+times_cont_diff_on.norm_square 
+mv_polynomial.quotient_mk_comp_C_injective mv_polynomial mv_polynomial set linear_map submodule
+measure_theory.measure.tprod_tprod measure_theory.measure measure_theory.measure measure_theory filter list function set measure_theory.outer_measure
+perfection.frobenius_pth_root perfection
+is_primitive_root.minpoly_dvd_expand is_primitive_root is_primitive_root minpoly finset polynomial
+supr_lt_iff 
+ess_inf_const 
+ideal.quotient.alg_map_eq ideal ideal function
+real.inj_on_arcsin 
+minpoly.degree_pos minpoly minpoly minpoly function set polynomial
+zsqrtd.lift_injective zsqrtd
+ordnode.valid'.balance_r ordnode ordnode
+times_cont_diff.times_cont_mdiff 
+interval_integral.integral_congr interval_integral interval_integral interval_integral classical filter topological_space set measure_theory
+generalized_continued_fraction.exists_gcf_pair_rat_eq_nth_conts generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+ennreal.ess_sup_const_mul 
+asymptotics.is_O_with.pow asymptotics filter set
+language.mul_supr language
+submodule.fg_iff_compact submodule set
+fin.one_mul fin fin nat fin function set
+quadratic_form.polar_sub_right quadratic_form quadratic_form
+list.reduce_option_length_le list nat function
+generalized_continued_fraction.coe_of_s_nth_rat_eq generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+linear_isometry_equiv.norm_map 
+div_add_one 
+times_cont_diff.norm_square 
+category_theory.topology_of_closure_operator_sieves 
+eventually_eq.countable_Union 
+measure_theory.Lp.norm_def 
+equiv.perm.mul_symm 
+has_fpower_series_on_ball.uniform_geometric_approx' asymptotics filter set
+ordnode.bounded.to_sep 
+lie_submodule.mem_coe 
+set.to_finset_compl set set function set
+orthogonal_projection_mem_subspace_orthogonal_complement_eq_zero is_R_or_C has_inner filter inner_product_space real
+parser.decorate_errors_eq_done parser parser parser parse_result
+right_vsub_midpoint affine_map affine_equiv
+list.reduce_option_length_eq_iff list nat function
+measure_theory.simple_func.ae_measurable 
+mul_eq_one_iff 
+times_cont_mdiff_on_iff_target charted_space set smooth_manifold_with_corners
+self_le_mul_right 
+ae_measurable_add_measure_iff 
+real.times_cont_diff_on_arcsin 
+parser.many_eq_done_nil parser parser parser parse_result
+general_commutator_bot subgroup
+concave_on_univ_of_deriv2_nonpos 
+parser.valid.sep_by1 
+measure_theory.measure.pi'_pi_le measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+equiv.perm_congr_def 
+real.differentiable_within_at_arcsin_Ici real filter set
+set.bdd_above_add 
+times_cont_diff_within_at.arctan 
+inv_pos_lt_iff_one_lt_mul' 
+dihedral.one_def 
+findim_orthogonal_span_singleton is_R_or_C has_inner filter finite_dimensional inner_product_space real
+and_congr_left' 
+generalized_continued_fraction.coe_of_s_rat_eq generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+order.ideal.mem_of_mem_of_le 
+alg_hom.restrict_normal_comp is_scalar_tower polynomial
+many_one_degree.lift_on₂_eq 
+measure_theory.measure.tendsto_eval_ae_ae 
+linear_map.ker_eq_bot_of_inverse linear_map linear_map function set submodule
+is_measurable.tprod measurable_singleton_class measurable_space equiv list encodable function set
+well_founded.is_sup_closed_compact 
+set.eq_singleton_iff_nonempty_unique_mem 
+finset.preimage_union finset finset function set
+lie_algebra.morphism.mem_ker lie_algebra.morphism lie_algebra set
+metric.mem_sphere 
+algebra.finitely_presented.mv_polynomial algebra.finitely_presented algebra function
+submodule.sup_orthogonal_of_complete_space 
+category_theory.limits.diagram_iso_span_hom_app 
+is_atom_top 
+measure_theory.l1.simple_func.ae_measurable 
+has_fpower_series_at.deriv 
+linear_equiv.lift_dim_eq 
+continuous_on.surj_on_of_tendsto' 
+filter.tendsto_abs_at_top_at_top 
+fintype.is_simple_lattice.card 
+list.reduce_option_nth_iff list nat function
+category_theory.adjunction.monad_η 
+generalized_continued_fraction.int_fract_pair.coe_stream_rat_eq generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+add_hom.mk_coe 
+measure_theory.ae_eq_comp measure_theory measurable_space classical filter measure_theory.measure function set
+prime_spectrum.zero_locus_bUnion prime_spectrum
+interval_integral.integral_mul_deriv_eq_deriv_mul interval_integral asymptotics classical filter topological_space continuous_linear_map set measure_theory
+perfection.coeff_mk 
+real.image_tan_Ioo 
+same_add_div set
+fintype.card_eq_one_of_forall_eq 
+minpoly.aeval_ne_zero_of_dvd_not_unit_minpoly minpoly minpoly minpoly function set polynomial
+ordnode.valid'.erase_min_aux ordnode ordnode
+finset.sigma_eq_bUnion finset finset nat function subtype multiset
+set.preimage_inv_fun_of_mem set function
+category_theory.algebra_equiv_under_inverse 
+filter.eventually.exists_measurable_mem_of_lift' 
+eq_zero_of_smul_two_eq_zero function
+linear_isometry_equiv.coe_symm_to_linear_equiv 
+is_measurable_pi_of_nonempty measurable_singleton_class measurable_space equiv encodable function set
+parser.decorate_error_fail 
+finset.preimage_compl finset finset function set
+cyclotomic_eq_minpoly nat.arithmetic_function is_primitive_root complex polynomial
+homeomorph.is_closed_image homeomorph filter set
+equiv.mul_left_symm_apply 
+finset.sup_finset_image finset finset order_dual function multiset
+is_R_or_C.I_mul_re is_R_or_C
+nonzero_of_mem_sphere metric filter has_norm
+linear_isometry.diam_image 
+polynomial.is_root_cyclotomic polynomial polynomial nat.arithmetic_function
+linear_isometry_equiv.map_sub 
+set.bdd_above_mul set function
+matrix.empty_sub_empty 
+is_R_or_C.im_eq_zero_of_le is_R_or_C
+parser.seq_right_eq_done parser parser parser parse_result
+measure_theory.integral_non_ae_measurable 
+continuous_on.surj_on_of_tendsto classical filter topological_space function set
+nnreal.tsum_mul_right nnreal nnreal metric filter finset topological_space set
+is_R_or_C.re_eq_self_of_le is_R_or_C
+function.embedding.inl_apply 
+nnreal.mk_coe_nat 
+ordnode.node3_r_size ordnode
+ordnode.valid'.of_lt 
+set.pi_univ_Ioc_update_left set set function
+string.as_string_inv_to_list string
+monoid_with_zero_hom.mk_coe 
+ideal.polynomial.is_jacobson_polynomial_of_is_jacobson ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+perfection_map.hom_ext 
+complex.tan_two_mul complex filter set
+equiv.perm_congr_symm 
+general_commutator_def 
+interval_integrable.ae_measurable' 
+function.forall_update_iff function function
+nat.even_xor_odd' nat
+continuous_linear_map.fpower_series_apply_add_two 
+witt_vector.from_padic_int_comp_to_padic_int witt_vector truncated_witt_vector
+ordnode.valid'.rotate_r ordnode ordnode
+ideal.quotient_mk_maps_eq ideal ideal polynomial
+ennreal.supr_eq_zero ennreal ennreal metric classical filter topological_space set
+complex.sin_eq_zero_iff_cos_eq complex filter set
+lie_submodule.lie_inf lie_submodule lie_submodule set
+set.mk_preimage_prod_left_fn_eq_if set set function set
+parser.orelse_eq_fail_eq parser parser parser parse_result
+generalized_continued_fraction.int_fract_pair.coe_stream_nth_rat_eq generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+re_inner_eq_norm_add_mul_self_sub_norm_sub_mul_self_div_four is_R_or_C has_inner filter inner_product_space real
+ordnode.valid'.dual ordnode ordnode
+nat.gcd_fib_add_mul_self nat
+measure_theory.measure.le_map_apply measure_theory.measure measure_theory measurable_space classical filter function set
+le_of_forall_pos_le_add 
+times_cont_diff_norm_square is_R_or_C has_inner filter inner_product_space real
+submodule.exists_sum_mem_mem_orthogonal is_R_or_C has_inner filter inner_product_space real
+alternating_map.coe_dom_dom_congr 
+add_monoid_hom.coe_dfinsupp_sum 
+ring.ne_bot_of_is_maximal_of_not_is_field ring function set
+finset.nonempty.forall_const 
+parser.map_const_eq_fail parser parser parser parser parse_result
+category_theory.functor.to_ess_image_obj_coe 
+ae_measurable.integral_prod_right' measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+parser.eps_eq_done parser parser parser parse_result
+sdiff_idem_right has_compl
+is_compact_compact_covering 
+category_theory.coalgebra_to_over_map 
+lie_algebra.derived_series_of_ideal_add lie_algebra set
+parser.valid.map 
+nhds_inter_eq_singleton_of_mem_discrete filter set separated
+pi_tensor_product.zero_tprod_coeff 
+ordnode.dual_balance_r ordnode
+perfection_map.id perfection_map
+measure_theory.has_finite_integral.tendsto_set_integral_nhds_zero measure_theory measure_theory measure_theory.ae_eq_fun filter finset measure_theory.l1.simple_func emetric topological_space continuous_linear_map set measure_theory.simple_func ennreal
+ordnode.dual_node4_l ordnode
+sup_inf_assoc_of_le 
+linear_isometry_equiv.coe_to_linear_equiv 
+equiv.equiv_congr_apply_apply 
+linear_isometry_equiv.trans_assoc 
+ae_measurable.nnnorm 
+minpoly.prime minpoly minpoly minpoly function set polynomial
+real.differentiable_on_arccos 
+alg_hom.restrict_normal_commutes 
+measure_theory.pi_premeasure_pi_mono 
+homeomorph.image_preimage 
+option.map_bind option option
+lie_ideal.comap_mono lie_ideal lie_algebra set
+exists_pos_mul_of_lt 
+lie_ideal.comap_coe_submodule 
+continuous_on.ae_measurable asymptotics metric filter topological_space function set measure_theory
+matrix.tail_neg 
+ennreal.of_real_prod_of_nonneg ennreal ennreal classical finset set
+pi_tensor_product.lift_tprod 
+ae_measurable.neg 
+real.volume_Ioi real classical filter set ennreal measure_theory
+continuous_within_at.abs 
+times_cont_diff_on.arctan 
+lie_algebra.derived_series_of_ideal_zero 
+regular_expression.one_rmatch_iff regular_expression
+real.tan_add' 
+set.univ_pi_update_univ set set function set
+real.tan_two_mul real filter set complex polynomial
+power_series.constant_coeff_inv_units_sub power_series power_series
+zsqrtd.norm_eq_zero zsqrtd
+ordnode.bounded.mem_gt 
+real.arcsin_of_one_le real filter set
+lie_submodule.inf_coe 
+parser.digit_eq_done parser parser parser parse_result
+real.coe_sin_order_iso_apply 
+finset.range_order_emb_of_fin finset finset nat multiset
+option.map_congr option
+continuous_within_at.inner 
+submonoid.nontrivial_iff 
+minpoly_primitive_root_dvd_cyclotomic nat.arithmetic_function is_primitive_root complex polynomial
+simple_graph.neighbor_set_union_compl_neighbor_set_eq simple_graph simple_graph finset
+measure_theory.ae_restrict_iff' measure_theory measurable_space classical filter measure_theory.measure function set
+linear_isometry_equiv.map_add 
+order_iso.symm_injective order_iso order_iso function
+function.injective.sum_elim 
+finset.card_bUnion_le finset opposite multiset
+affine_map.continuous_of_finite_dimensional 
+function.embedding.inr_apply 
+list.tprod.elim_self list.tprod list list function
+div_add_same set
+finset.sup_to_finset 
+finite_dimensional.nonempty_linear_equiv_iff_findim_eq 
+mv_polynomial.zero_locus_top 
+option.mem_map_of_mem 
+map_mul_left_nhds 
+right_inverse_eq ring ideal
+list.sorted.nth_le_strict_mono 
+measure_theory.l1.ae_measurable 
+linear_map.map_dfinsupp_sum 
+formal_multilinear_series.comp_remove_zero formal_multilinear_series filter list formal_multilinear_series
+power_series.map_cos power_series power_series
+measure_theory.exists_simple_func_forall_lintegral_sub_lt_of_pos measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+real.has_deriv_within_at_arcsin_Ici real filter set
+filter.eventually_cofinite 
+nat.fib_dvd nat
+nnreal.of_real_sum_of_nonneg nnreal
+ordnode.length_to_list ordnode
+finset.induction_on_union finset finset nat function subtype multiset
+regular_expression.star_rmatch_iff regular_expression
+has_deriv_within_at.Ici_of_Ioi 
+coe_inv_of_nonzero ring ideal
+parser.foldl_core_zero_eq_fail parser parser parser parse_result
+parser.map_eq_fail parser parser parser parser parse_result
+ordnode.valid'.merge_lemma ordnode ordnode
+midpoint_sub_left 
+order_iso.is_simple_lattice_iff order_iso is_simple_lattice is_coatomistic is_atomic is_atomistic is_coatomic
+compl_eq_bot 
+category_theory.topology_of_closure_operator_close category_theory
+real.le_arcsin_iff_sin_le' real filter set
+ordnode.valid'.trans_right 
+filter.nonneg_of_eventually_pow_nonneg 
+measure_theory.map_prod_mul_eq measure_theory measure_theory.measure topological_space function set
+perfection_map.comp_symm_equiv 
+category_theory.is_subterminal.iso_diag_inv 
+list.is_prefix.filter_map list nat function
+enat.find_le enat enat roption
+ordnode.valid'.dual_iff ordnode ordnode
+measure_theory.snorm_ess_sup_zero measure_theory measure_theory measure_theory
+generalized_continued_fraction.int_fract_pair.coe_of_rat_eq generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+formal_multilinear_series.remove_zero_coeff_zero 
+intermediate_field.lifts.le_lifts_of_splits intermediate_field intermediate_field vector_space finite_dimensional polynomial
+category_theory.is_filtered.coeq_condition_assoc 
+perfection.ext 
+ordnode.valid'.erase_max_aux ordnode ordnode
+mv_polynomial.vars_eq_support_bUnion_support mv_polynomial mv_polynomial mv_polynomial mv_polynomial add_monoid_algebra finsupp function set
+parser.and_then_fail parser parser parser parser parse_result
+finset.sup_le_of_le_directed finset finset order_dual multiset
+parser.valid.remaining 
+derived_series_le_map_derived_series subgroup
+separated.union_right 
+measure_theory.mem_ℒp.ae_eq measure_theory measure_theory
+int.even_iff_not_odd int
+interval_integral.integral_eq_sub_of_has_deriv_at 
+ordnode.insert.valid ordnode ordnode
+measure_theory.Lp.snorm_ne_top 
+filter.inter_mem_sets_iff 
+eq_zero_of_eq_neg function
+pi_tensor_product.lift_aux_tprod pi_tensor_product pi_tensor_product function multilinear_map
+ordnode.dual_dual ordnode
+perfection_map.mk' perfection_map
+times_cont_diff_at.norm_square 
+homeomorph.ext 
+ordnode.valid'_nil 
+add_monoid_hom.coe_finsupp_sum 
+ordnode.foldr_cons_eq_to_list ordnode
+continuous_linear_map.op_norm_le_of_nhds_zero 
+is_modular_lattice_iff_sup_inf_sup_assoc 
+measure_theory.regular_neg_iff 
+list.cons_prefix_iff list nat function
+measure_theory.measure.prod_prod_le measure_theory.measure measure_theory measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+edist_pi_const 
+enat.get_coe' 
+enat.find_eq_top_iff 
+list.tprod.elim_of_ne list.tprod list list function
+quotient_map.is_open_preimage 
+lie_ideal.map_mono lie_ideal lie_algebra set
+set.pi_diff_pi_subset set set tactic auto function set
+eq_orthogonal_projection_of_mem_orthogonal 
+order_embedding.coe_subtype 
+matrix.vec_head_vec_alt0 
+ordnode.node3_l_size ordnode
+inv_zero' 
+perfection_map.comp_symm_equiv' 
+linear_map.comp_multilinear_map_alternatization linear_map equiv function
+ordnode.find_max'_all 
+is_measurable.pi_univ 
+linear_isometry_equiv.inner_map_map 
+mv_power_series.coeff_add_monomial_mul mv_power_series mv_power_series finsupp
+parser.valid.many 
+add_units.neg_mk 
+measure_theory.measure.exists_is_open_measure_lt_top measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+asymptotics.is_O_principal 
+real.differentiable_within_at_arccos_Ici 
+ring_equiv.symm_to_ring_hom_comp_to_ring_hom ring_equiv ring_equiv opposite
+finset.not_nonempty_iff_eq_empty finset nat function subtype multiset
+formal_multilinear_series.comp_continuous_linear_map_apply_composition formal_multilinear_series filter list
+probability_theory.indep_sets.Inter probability_theory probability_theory measurable_space measure_theory
+linear_isometry.map_zero 
+real.neg_pi_div_two_eq_arcsin 
+pi_tensor_product.lift.tprod 
+complex.sin_mul_I complex is_absolute_value finset cau_seq complex real
+string.popn_empty string
+measure_theory.snorm_const' measure_theory measure_theory measure_theory
+ordnode.valid'.node4_l_lemma₃ ordnode ordnode
+language.star_mul_le_left_of_mul_le_left language
+fintype.sum_sum_elim 
+measurable.ae_measurable 
+list.unzip_enum_eq_prod list nat
+is_galois.of_separable_splitting_field is_galois alg_equiv finite_dimensional
+list.as_string_inj string
+linear_isometry_equiv.diam_image 
+fin_succ_equiv_succ 
+mv_polynomial.zero_locus_anti_mono 
+parser.many_char1_eq_done parser parser parser parse_result
+map_commutator_eq_commutator_map subgroup
+ideal.injective_quotient_le_comap_map ideal ideal polynomial
+lie_ideal.coe_to_subalgebra 
+formal_multilinear_series.remove_zero_coeff_succ 
+local_homeomorph.times_cont_diff_at_symm_deriv 
+measure_theory.measure.ae_eval_ne 
+nat.cast_le_pow_div_sub 
+is_simple_lattice_iff_is_simple_lattice_order_dual is_simple_lattice is_coatomistic is_atomic is_atomistic is_coatomic
+category_theory.functor.to_ess_image_comp_essential_image_inclusion_hom_app 
+ordnode.balance_sz_dual ordnode
+intermediate_field.lifts.exists_lift_of_splits 
+complete_lattice.is_sup_closed_compact_iff_well_founded 
+int.add_div_of_dvd_right int nat
+pairwise.mono 
+parser.valid.nat 
+submodule.is_closed_topological_closure filter
+inv_pos_le_iff_one_le_mul' 
+normed_field.nnnorm_mul 
+finset.order_emb_of_fin_apply finset finset nat multiset
+real.volume_Ici real classical filter set ennreal measure_theory
+submodule.subtype_continuous_apply 
+ae_measurable_bsupr measurable_space classical filter topological_space set measure_theory
+function.injective.preimage_image 
+perfection.coeff_iterate_frobenius' 
+set.Ioo_union_Ioo' set set set
+real.arctan_eq_of_tan_eq real filter set complex polynomial
+nat.lcm_ne_zero nat
+linear_map.coe_finsupp_sum 
+measure_theory.le_ae_restrict 
+parser.map_rev_const_eq_fail 
+linear_isometry_equiv.continuous 
+has_fderiv_at.inner 
+add_monoid_hom.comp_hom_apply_apply 
+measure_theory.lintegral_prod_symm' measure_theory measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+matrix.dot_product_eq matrix function set linear_map submodule
+category_theory.is_subterminal.mono_terminal_from 
+int.sub_div_of_dvd_sub int nat
+category_theory.coyoneda.iso_comp_punit_hom_app 
+general_commutator_eq_commutator subgroup
+add_subgroup.mem_sup' 
+category_theory.transfer_nat_trans_self_id category_theory category_theory category_theory.category
+set.Ioc_union_Ioi set set set
+mv_polynomial.mem_zero_locus_iff 
+category_theory.algebra_equiv_under_functor 
+matrix.cons_sub matrix matrix
+formal_multilinear_series.norm_mul_pow_le_mul_pow_of_lt_radius formal_multilinear_series asymptotics filter set
+list.reduce_option_concat_of_some list nat function
+filter.bInter_mem_sets filter set
+zsqrtd.to_real_injective 
+string.to_list_empty 
+finset.Ico.union' finset.Ico finset nat multiset
+finset.preimage_empty finset finset function set
+le_one_iff_eq_one 
+is_primitive_root.pow_is_root_minpoly is_primitive_root is_primitive_root minpoly finset polynomial
+ordnode.valid'.mono_left 
+ideal.mv_polynomial.comp_C_integral_of_surjective_of_jacobson ideal.mv_polynomial ideal mv_polynomial submonoid ring_hom localization_map polynomial
+parser.valid.foldr_core_zero 
+finset.univ_filter_exists finset
+has_deriv_within_at_diff_singleton asymptotics filter continuous_linear_map set
+linear_isometry.nnnorm_map 
+option.pbind_eq_none option option
+witt_vector.zmod_equiv_trunc_compat witt_vector truncated_witt_vector
+set.univ_pi_update set set function set
+parser.orelse_eq_orelse 
+nat.gcd_b_zero_right nat
+lie_submodule.top_coe_submodule 
+fin.coe_order_iso_apply fin nat fin function
+pi_tensor_product.smul_tprod_coeff_aux 
+submodule.mem_span_mul_finite_of_mem_mul submodule submodule algebra set
+category_theory.extend_fan_X 
+equiv.image_preimage 
+submodule.topological_closure_minimal 
+separated.empty_right separated filter set separated
+pow_bit0_nonneg int
+measure_theory.mem_ℒp_zero_iff_ae_measurable measure_theory measure_theory measure_theory
+lie_ideal.incl_coe 
+measurable.ennreal_div 
+linear_equiv.coe_isometry_of_inner 
+eq_top_or_eq_of_coatom_le 
+ordnode.dual_balance' ordnode
+measure_theory.measure_lintegral_div_measure measure_theory measure_theory.measure topological_space function set
+ennreal.rpow_eq_top_iff_of_pos ennreal filter real
+fin.mk_lt_of_lt_coe 
+measure_theory.snorm'_le_snorm_ess_sup measure_theory measure_theory measure_theory
+isometric.comp_continuous_iff' 
+set.is_simple_lattice_Ici_iff_is_coatom 
+measure_theory.Lp.coe_fn_smul 
+ordnode.balance_r_eq_balance' ordnode
+finset.mem_range_succ_iff 
+option.map_pmap option option
+ring.fractional_ideal.map_one_div ring.fractional_ideal ring.fractional_ideal ring set localization_map submodule
+ordnode.all_node3_l ordnode
+function.embedding.swap_apply 
+mv_polynomial.vanishing_ideal_anti_mono 
+mul_generator_self_inv ring submodule submodule.is_principal ideal
+lie_ideal.map_of_image lie_ideal lie_algebra set
+real.has_deriv_at_arccos 
+ordnode.balanced.dual ordnode
+list.zip_with_nil_right list nat
+is_compl.is_atom_iff_is_coatom 
+zsqrtd.hom_ext zsqrtd
+category_theory.limits.diagram_iso_cospan_inv_app 
+mv_polynomial.is_symmetric.one mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+ordnode.any_iff_exists ordnode
+set.Iio_union_Ico set set set
+set.sUnion_eq_empty 
+perfection.coeff_add_ne_zero perfection
+submonoid.coe_mul_self_eq submonoid is_mul_hom function set
+lie_submodule.bot_coe_submodule 
+is_primitive_root.minpoly_eq_pow is_primitive_root is_primitive_root minpoly finset polynomial
+continuous.ae_measurable2 
+smooth_on_iff_target 
+option.map_bind' option option
+formal_multilinear_series.remove_zero_of_pos formal_multilinear_series fin set
+ne_neg_of_mem_sphere metric norm_one_class filter has_norm
+set.prod_preimage_left 
+inv_nonzero 
+exists_eq_right_right 
+measure_theory.snorm'_measure_zero_of_neg measure_theory measure_theory measure_theory
+simple_graph.card_common_neighbors_le_degree_left simple_graph simple_graph simple_graph finset
+real.strict_mono_incr_on_arcsin 
+set.Ico_union_Ici' set set set
+measure_theory.measure.le_count_apply 
+ordnode.all_balance_l ordnode
+lie_submodule.mem_inf lie_submodule lie_submodule set
+lie_algebra.derived_series_of_ideal_mono 
+is_primitive_root.separable_minpoly_mod is_primitive_root is_primitive_root minpoly finset polynomial
+prime_spectrum.mem_compl_zero_locus_iff_not_mem prime_spectrum
+ordnode.valid'.rotate_l_lemma₁ ordnode ordnode
+lie_module.lower_central_series_zero 
+mv_polynomial.is_symmetric.mul mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+filter.liminf_const_top 
+ordnode.all_singleton 
+lie_ideal.map_le 
+real.arctan_eq_arcsin 
+sum.update_inl_comp_inr 
+list.take_succ list nat function
+asymptotics.is_o_of_tendsto 
+category_theory.monad.comparison_forget_hom_app 
+orthogonal_projection_mem_subspace_orthogonal_precomplement_eq_zero 
+set.Ici.coe_top 
+is_primitive_root.pow_of_prime 
+ennreal.bsupr_add ennreal ennreal metric classical filter topological_space set
+is_coatom_bot 
+dihedral.r_mul_sr 
+nat.dist_tri_right nat
+measurable_limit_of_tendsto_metric_ae measurable_space metric classical filter emetric topological_space function set measure_theory
+ordnode.valid'.balance' 
+and_congr_right' 
+generalized_continued_fraction.exists_rat_eq_nth_convergent generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+complete_lattice.well_founded_characterisations complete_lattice
+simple_graph.is_regular_of_degree_eq 
+ae_seq.ae_seq_eq_fun_of_mem_ae_seq_set ae_seq ae_seq measure_theory
+gsmul_def 
+ae_measurable.prod_mk 
+mv_power_series.map_monomial mv_power_series mv_power_series finsupp
+mv_polynomial.is_symmetric.C 
+measure_theory.outer_measure.pi_pi_le measure_theory.outer_measure measure_theory filter function set measure_theory.outer_measure
+parser.many_char_eq_many_of_to_list parser parser parser parse_result
+measure_theory.measure_null_of_measure_inv_null measure_theory measure_theory.measure topological_space function set
+simple_graph.adj.card_common_neighbors_lt_degree simple_graph simple_graph simple_graph finset
+sum.update_inr_apply_inr sum sum function
+finset.supr_bUnion finset finset order_dual function multiset
+measure_theory.snorm_const_smul measure_theory measure_theory measure_theory
+dihedral.r_one_pow_n dihedral
+finset.Ico.inter finset.Ico finset nat multiset
+submodule.span_preimage_le submodule submodule function set
+injective_pow_p 
+measure_theory.is_mul_right_invariant.inv measure_theory measure_theory has_inv measure_theory.measure function set
+option.join_eq_some option
+measure_theory.snorm_ess_sup_congr_ae measure_theory measure_theory
+measure_theory.mem_ℒp.snorm_lt_top 
+homeomorph.to_measurable_equiv_coe 
+perfection_map.map_map 
+real.deriv_arcsin real filter set
+gsmul_eq_smul_cast function
+continuous_abs 
+neg_le_self_iff 
+minpoly.gcd_domain_eq_field_fractions minpoly minpoly minpoly minpoly function set polynomial
+measure_theory.snorm_eq_snorm' measure_theory measure_theory measure_theory
+list.tprod.mk_elim list.tprod list list function
+pi_tensor_product.induction_on pi_tensor_product pi_tensor_product function
+ideal.jacobson_idem 
+ordnode.valid.dual_iff 
+measure_theory.exists_is_measurable_superset measure_theory measure_theory measurable_space classical filter function set
+has_fderiv_within_at.eventually_ne normed_field asymptotics metric filter continuous_linear_map set ring normed_ring
+list.sorted.coe_nth_le_iso_symm_apply 
+intermediate_field.lifts.exists_max_three intermediate_field intermediate_field vector_space finite_dimensional polynomial
+measure_theory.lintegral_eq_zero_iff' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+neg_closure 
+ordnode.valid'.node4_l_lemma₁ ordnode ordnode
+parser.remaining_eq_done parser parser parser parse_result
+measure_theory.snorm_measure_zero measure_theory measure_theory measure_theory
+ideal.is_integral_domain_map_C_quotient 
+tensor_algebra.ι_left_inverse tensor_algebra
+lie_submodule.lie_span_eq 
+is_measurable.Inter_fintype 
+mv_polynomial.is_symmetric.neg mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+category_theory.over_to_coalgebra_obj_A 
+category_theory.limits.prod_comparison_fst_assoc 
+real.deriv_arcsin_aux real filter set
+eventually_le.countable_Union 
+category_theory.functor.ess_image.of_iso 
+set.Ioc_union_Ioc' set set set
+real.tan_int_mul_pi real filter set complex polynomial
+lie_ideal.map_comap_le lie_ideal lie_algebra set
+sum.update_elim_inr sum sum function
+finset.order_emb_of_fin_mem 
+ordnode.emem_iff_mem_to_list ordnode
+function.update_comp_eq_of_forall_ne 
+linear_isometry.coe_one 
+submonoid.top_closure_mul_self_eq 
+ess_sup_mono_ae 
+real.times_cont_diff_on_arccos 
+ordnode.any_singleton ordnode
+bool.ff_le 
+category_theory.limits.pullback_comparison_comp_snd_assoc 
+rel_embedding.coe_trans 
+enat.lt_find_iff enat enat roption
+ordnode.not_le_delta ordnode
+measurable_at_bot filter topological_space function set measure_theory
+Module.direct_limit_cocone_ι_app 
+ordnode.valid'.node 
+finset.disjoint_bUnion_right finset finset nat function subtype multiset
+int.mul_div_assoc' int nat
+linear_map.injective_of_ne_zero 
+concave_on_univ_of_deriv_antimono 
+list.nth_zero list nat function
+nonzero_of_mem_unit_sphere metric filter has_norm
+list.sorted.nth_le_mono 
+linear_equiv.nonempty_equiv_iff_dim_eq 
+le_iff_exists_mul 
+nat.psub'_eq_psub nat
+ordnode.size_balance' ordnode
+pnat.div_add_mod 
+ideal.quotient.mkₐ_to_ring_hom 
+closure_operator.idempotent 
+list.reduce_option_map list nat function
+measure_theory.measure_mul_right_ne_zero 
+ae_measurable.is_null_measurable ae_measurable measure_theory.has_no_atoms measure_theory.measure_space measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+ordnode.balanced_sz.symm ordnode
+or_iff_left_iff_imp 
+nat.gcd_a_zero_left nat
+nat.dist_tri_left' nat
+measure_theory.Lp.norm_const_smul measure_theory.Lp measure_theory.Lp measure_theory
+add_submonoid.top_closure_add_self_subset 
+lie_algebra.map_zero 
+finset.mem_bUnion finset finset nat function subtype multiset
+ordnode.merge_nil_left ordnode
+perfection.coeff_pow_p perfection
+filter.eventually_le.inter 
+parser.map_const_rev_eq_done 
+ennreal.mul_lt_mul ennreal ennreal classical set
+linear_isometry_equiv.map_ne 
+category_theory.monad.comparison_forget_inv_app 
+equiv.perm.is_cycle.sign equiv.perm equiv.perm equiv finset function
+parser.foldl_eq_fail parser parser parser parse_result
+ordnode.dual_node' ordnode
+lie_module.lower_central_series_succ 
+dihedral.sr_mul_sr 
+ordnode.raised.dist_le' ordnode
+cyclotomic.irreducible nat.arithmetic_function is_primitive_root complex polynomial
+complex.tan_add' 
+eq_of_norm_sub_le_zero metric filter has_norm
+language.add_supr 
+ae_measurable.edist 
+list.enum_from_eq_zip_range' 
+nat.add_div_of_dvd_right nat
+enat.coe_le_iff enat roption
+option.pmap_bind option option
+parser.many1_ne_done_nil parser parser parser parse_result
+measure_theory.snorm_add_le measure_theory measure_theory measure_theory
+is_coatomistic_dual_iff_is_atomistic is_coatomistic is_atomic is_atomistic is_coatomic
+set.elim_preimage_pi set list function
+linear_map.range_eq_bot linear_map linear_map function set submodule
+sum.update_elim_inl sum sum function
+asymptotics.is_O_with_top 
+nat.dist_tri_right' nat
+enat.lt_coe_iff enat roption
+minpoly.root minpoly minpoly minpoly function set polynomial
+linear_equiv_of_is_basis_symm_trans function set linear_map submodule
+measurable_equiv.map_map_symm measurable_equiv measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+formal_multilinear_series.comp_coeff_one formal_multilinear_series filter list formal_multilinear_series
+finset.sup_const 
+continuous_within_at.integral_sub_linear_is_o_ae asymptotics metric filter topological_space function set measure_theory
+parser.valid.many' 
+int.even_or_odd' int
+perfection.lift_symm_apply 
+many_one_degree.of_eq_of many_one_degree nat.primrec function computable
+lie_ideal.ker_incl lie_ideal lie_algebra set
+complete_lattice.well_founded.is_Sup_finite_compact complete_lattice
+lie_ideal.incl_is_ideal_morphism lie_ideal lie_algebra set
+measure_theory.map_prod_inv_mul_eq_swap measure_theory measure_theory.measure topological_space function set
+submonoid.is_closed_topological_closure classical filter topological_space function set
+one_add_div 
+closure_operator.mem_closed_iff_closure_le 
+polynomial.aeval_map polynomial polynomial finset
+parser.return_eq_pure 
+nat.fib_gcd nat
+ennreal.rpow_add_rpow_le_add ennreal finset
+enat.dom_of_lt 
+ordnode.all_rotate_l ordnode
+tendsto_pow_const_div_const_pow_of_one_lt 
+inv_eq 
+list.scanl_cons list list nat function
+measure_theory.snorm_ess_sup_const_smul measure_theory measure_theory measure_theory
+linear_isometry.coe_to_linear_map 
+category_theory.exp_adjunction_counit 
+normed_field.nnnorm_prod 
+asymptotics.is_O_map asymptotics filter set
+simple_graph.card_common_neighbors_le_degree_right simple_graph simple_graph simple_graph finset
+fin.add_zero fin fin nat fin function set
+measure_theory.Lp.coe_fn_mk measure_theory.Lp measure_theory
+commute_frobenius_pth_root 
+nnreal.lt_div_iff 
+parser.valid.any_char parser.valid parser parser parser parser parse_result
+category_theory.over.mono_of_mono_left 
+ennreal.rpow_le_rpow_iff ennreal filter real
+separated.comm 
+finset.preimage_inter finset finset function set
+linear_isometry_equiv.bijective 
+pi_tensor_product.smul_add 
+equiv.trans_swap_trans_symm 
+ordnode.split_max_eq ordnode
+category_theory.limits.pullback_comparison_comp_fst 
+add_monoid_hom.coe_sum 
+probability_theory.indep_sets.union_iff 
+minpoly.dvd minpoly minpoly minpoly function set polynomial
+measure_theory.Lp.measurable 
+fderiv_within_arctan 
+set.pi_update_of_not_mem set set function set
+parser.valid.mmap parser.valid parser parser parser parser parse_result
+parser.sat_eq_done parser parser parser parse_result
+generalized_continued_fraction.int_fract_pair.of_inv_fr_num_lt_num_of_pos 
+measure_theory.set_integral_congr_ae 
+has_fpower_series_at.has_fderiv_at 
+regular_expression.matches_epsilon_def 
+eventually_le.countable_bUnion filter set
+cmp_le_swap 
+add_submonoid.top_closure_add_self_eq 
+finset.univ_filter_mem_range 
+add_monoid_hom.mk_coe 
+ring_hom.mk_coe 
+mv_polynomial.esymm_zero mv_polynomial mv_polynomial equiv finset
+continuous_on.inner 
+ennreal.of_real_tsum_of_nonneg metric classical filter finset topological_space set
+pi_tensor_product.zero_tprod_coeff' 
+submodule.orthogonal_eq_top_iff is_R_or_C has_inner filter inner_product_space real
+asymptotics.is_O_with.eq_zero_imp asymptotics filter set
+simple_graph.compl_adj 
+category_theory.unit_transfer_nat_trans_self category_theory category_theory category_theory.category
+continuous_on.interval_integrable_of_Icc 
+real.volume_Icc_pi real classical filter set ennreal measure_theory
+Module.direct_limit_is_colimit_desc 
+measure_theory.measure.pi_has_no_atoms 
+inv_lt_iff_one_lt_mul' 
+power_series.map_sin power_series power_series
+parser.fix_core_ne_done_zero parser parser parser parse_result
+filter.tendsto_bit1_at_top 
+ae_lt_of_lt_ess_inf 
+parser.foldr_core_succ_eq_fail parser parser parser parse_result
+univ_sum_type finset function
+finset.piecewise_le_piecewise 
+subgroup.normal_closure_idempotent 
+category_theory.obj.comonad_ε_app 
+mv_polynomial.vanishing_ideal_empty 
+set.nonempty.of_sUnion_eq_univ 
+max_mul_mul_left 
+linear_map.finsupp_sum_apply 
+category_theory.is_filtered.of_equivalence 
+finset.sup_eq_bUnion finset order_dual multiset
+pi_tensor_product.lift.unique' 
+denoms_clearable_zero finset polynomial
+real.inj_on_tan 
+pi_tensor_product.tprod_coeff_eq_smul_tprod pi_tensor_product pi_tensor_product function
+pi_tensor_product.lift_aux.smul pi_tensor_product pi_tensor_product function multilinear_map
+tsum_coe_mul_geometric_of_norm_lt_1 
+mv_polynomial.is_symmetric.add mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+category_theory.limits.map_lift_pullback_comparison_assoc 
+subsingleton_iff_bot_eq_top 
+has_deriv_within_at.Ioi_of_Ici 
+real.arccos_eq_pi_div_two real filter set
+midpoint_vsub_right affine_map affine_equiv
+continuous_linear_map.analytic_at 
+ordnode.all_node' 
+linear_map.bound_of_antilipschitz metric continuous_linear_map
+measure_theory.is_mul_left_invariant.measure_ne_zero_iff_nonempty measure_theory measure_theory has_inv measure_theory.measure function set
+linear_isometry.map_add 
+ae_measurable.ennreal_rpow_const 
+linear_isometry.to_linear_map_injective 
+measure_theory.lintegral_count measure_theory measure_theory filter finset measure_theory.measure encodable function set measure_theory.simple_func ennreal
+measure_theory.snorm_exponent_top measure_theory measure_theory measure_theory
+nhds_eq_infi_abs_sub classical filter topological_space function set
+linear_isometry_equiv.injective 
+is_sup_closed_compact.is_Sup_finite_compact 
+dihedral.card dihedral
+ordnode.valid'.rotate_l_lemma₂ ordnode ordnode
+closure_operator_gi_self 
+measure_theory.is_mul_left_invariant.null_iff measure_theory measure_theory has_inv measure_theory.measure function set
+mv_polynomial.esymm_eq_sum_monomial mv_polynomial mv_polynomial equiv finset
+ordnode.valid_singleton 
+measure_theory.snorm'_add_le measure_theory measure_theory measure_theory
+category_theory.grothendieck_topology.pullback_close category_theory.grothendieck_topology category_theory
+map_inv ring ideal
+measure_theory.tendsto_integral_approx_on_univ_of_measurable measure_theory measure_theory measure_theory.ae_eq_fun filter finset measure_theory.l1.simple_func emetric topological_space continuous_linear_map set measure_theory.simple_func ennreal
+is_coatom_dual_iff_is_atom 
+parser.decorate_error_success 
+lie_ideal.comap_map_le lie_ideal lie_algebra set
+lie_subalgebra.zero_mem 
+measure_theory.snorm'_exponent_zero measure_theory measure_theory measure_theory
+linear_isometry.isometry 
+parser.bind_eq_done parser parser parser parser parse_result
+lt_inv_iff_mul_lt_one' 
+fintype.is_simple_lattice.univ fintype.is_simple_lattice fintype is_simple_lattice is_coatomistic is_atomic is_atomistic is_coatomic
+list.lt_length_left_of_zip_with list nat
+orthogonal_projection_orthogonal_complement_singleton_eq_zero 
+algebra.finite_type.of_finitely_presented algebra.finite_type algebra function
+pi_tensor_product.smul_tprod_coeff pi_tensor_product pi_tensor_product function
+ennreal.le_of_forall_nnreal_lt ennreal ennreal classical finset set
+category_theory.transfer_nat_trans_self_comp category_theory category_theory category_theory.category
+order_iso.ess_inf_apply 
+option.pbind_eq_some option option
+continuous_linear_map.apply_apply 
+probability_theory.indep_of_indep_of_le_right 
+probability_theory.Indep.indep probability_theory probability_theory measurable_space measure_theory
+supr_sup 
+affine_subspace.coe_vsub 
+measurable.comp_ae_measurable 
+power_series.inv_units_sub_mul_X power_series power_series
+inv_pos_lt_iff_one_lt_mul 
+ne_neg_of_mem_unit_sphere metric norm_one_class filter has_norm
+measure_theory.measure.le_dirac_apply 
+differentiable.norm_square 
+subsingleton.ae_measurable 
+linear_equiv.inv_fun_eq_symm 
+measure_theory.map_prod_mul_eq_swap measure_theory measure_theory.measure topological_space function set
+parser.fix_core_eq_done parser parser parser parse_result
+ordnode.valid'.node' 
+measure_theory.ae_eq_fun.ae_measurable 
+linear_isometry.comp_continuous_iff 
+complex.norm_sq_apply 
+summable_of_is_O_nat 
+formal_multilinear_series.lt_radius_of_is_O formal_multilinear_series asymptotics filter set
+submonoid.subsingleton_iff submonoid
+mv_polynomial.le_vanishing_ideal_zero_locus 
+is_o_coe_const_pow_of_one_lt asymptotics metric classical filter finset function set
+list.nth_le_succ_scanl list list nat function
+regular_expression.matches_star_def 
+minpoly.dvd_map_of_is_scalar_tower minpoly minpoly minpoly function set polynomial
+submonoid.submonoid_topological_closure 
+asymptotics.is_O_with_principal 
+set.Iic.coe_bot 
+map_add_left_nhds 
+perfection_map.lift_symm_apply 
+ring.fractional_ideal.mul_div_self_cancel_iff ring.fractional_ideal ring.fractional_ideal ring set localization_map submodule
+has_fpower_series_on_ball.is_O_image_sub_image_sub_deriv_principal asymptotics filter set
+set.nonempty.of_sUnion 
+homeomorph.shear_add_right_coe 
+homeomorph.mul_left_symm classical filter topological_space function set
+set.union_pi set set function set
+asymptotics.is_O.pow 
+lie_subalgebra.coe_set_eq 
+parser.orelse_eq_fail_invalid_lt parser parser parser parse_result
+linear_map.comp_alternating_map_apply 
+real.differentiable_within_at_arccos_Iic 
+filter.has_basis.exists_inter_eq_singleton_of_mem_discrete filter set separated
+mv_polynomial.mem_vanishing_ideal_iff 
+ordnode.sized.rotate_l ordnode
+fin_succ_equiv_symm_none 
+measure_theory.outer_measure.le_pi measure_theory.outer_measure measure_theory filter function set measure_theory.outer_measure
+times_cont_diff_within_at.times_cont_mdiff_within_at 
+ae_seq.ae_seq_eq_fun_ae ae_seq measure_theory
+ordnode.bounded.weak 
+continuous_at.abs 
+many_one_degree.add_of 
+closed_ball_prod_same metric classical filter topological_space has_dist set
+measure_theory.snorm'_smul_le_mul_snorm' measure_theory measure_theory measure_theory
+metric.exists_closed_ball_inter_eq_singleton_of_discrete 
+denoms_clearable_C_mul_X_pow finset polynomial
+add_submonoid.nontrivial_iff 
+monoid_hom.coe_fn_apply 
+measure_theory.lintegral_mul_const'' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+filter.eventually_le.diff 
+asymptotics.is_o_top asymptotics filter set
+ordnode.raised.add_right ordnode
+lie_submodule.unique_of_bot lie_submodule lie_submodule set
+enat.le_def 
+equiv.perm.coe_subsingleton equiv function
+perfection.coeff_map 
+ne_of_irrefl 
+measure_theory.measure.is_add_left_invariant.measure_ne_zero_iff_nonempty 
+real.tan_int_mul_pi_div_two real filter set complex polynomial
+is_scalar_tower.coe_restrict_base' 
+string.to_list_nonempty string
+order_iso.map_top' 
+has_strict_fderiv_at.map_nhds_eq 
+submonoid.top_closure_mul_self_subset classical filter topological_space function set
+simple_graph.mem_common_neighbors simple_graph finset
+isometric.ediam_univ isometric function set
+equiv.perm.mul_refl 
+is_null_measurable_iff_sandwich measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+homeomorph.coe_add_left 
+matrix.dot_product_eq_iff 
+category_theory.comonad.comparison_obj_A 
+category_theory.is_subterminal_of_mono_terminal_from category_theory category_theory.category category_theory.limits
+monoid_hom.mk_coe 
+tfae_exists_lt_is_o_pow asymptotics metric classical filter finset function set
+category_theory.monad.algebra.iso_mk_inv_f 
+closure_operator.le_closure_iff 
+set.Iic.coe_top 
+inner_eq_norm_mul_iff_real 
+ennreal.rpow_left_surjective ennreal filter real
+ordnode.valid'.merge_aux ordnode ordnode
+list.range_zero 
+max_le_mul_of_one_le 
+real.neg_pi_div_two_lt_arcsin real filter set
+euclidean_geometry.eq_orthogonal_projection_of_eq_subspace euclidean_geometry affine_subspace inner_product_geometry finite_dimensional
+set.Iio_union_Ico' set set set
+enat.lt_def enat roption
+has_fpower_series_on_ball.has_sum_sub asymptotics filter set
+parser.seq_left_eq_fail parser parser parser parse_result
+finset.subset_add 
+asymptotics.bound_of_is_O_cofinite asymptotics filter set
+algebra.adjoin_res_eq_adjoin_res algebra
+measurable_pi_iff measurable_singleton_class measurable_space equiv encodable function set
+linear_isometry_equiv.ext 
+category_theory.is_subterminal_of_terminal 
+dihedral.sr_mul_r 
+complete_lattice.is_Sup_finite_compact_iff_is_sup_closed_compact 
+category_theory.transfer_nat_trans_self_symm_comm category_theory category_theory category_theory.category
+power_basis.nat_degree_minpoly power_basis power_basis polynomial
+lie_subalgebra.mk_coe 
+tendsto_pow_at_top_nhds_within_0_of_lt_1 
+measure_theory.ae_imp_of_ae_restrict measure_theory measurable_space classical filter measure_theory.measure function set
+linear_isometry_equiv.edist_map 
+with_top.one_le_iff_pos with_top
+regular_expression.mul_rmatch_iff regular_expression
+asymptotics.is_o.pow asymptotics filter set
+lie_algebra.derived_series_of_ideal_succ_le 
+category_theory.is_subterminal.iso_diag_hom 
+measure_theory.snorm'_le_snorm_ess_sup_mul_rpow_measure_univ measure_theory measure_theory measure_theory
+real.continuous_at_arctan 
+set.nonempty_sUnion set tactic auto function set
+euclidean_domain.gcd_b_zero_left euclidean_domain euclidean_domain
+mv_polynomial.esymm_eq_sum_subtype mv_polynomial mv_polynomial equiv finset
+language.star_mul_le_right_of_mul_le_right language
+ordnode.valid'.node4_l_lemma₅ ordnode ordnode
+parser.valid.fix_core 
+inner_lt_one_iff_real_of_norm_one is_R_or_C has_inner filter inner_product_space real
+measurable.arctan 
+ae_measurable.measurable_at_filter_of_mem 
+language.le_mul_congr language
+generalized_continued_fraction.int_fract_pair.stream_nth_fr_num_le_fr_num_sub_n_rat generalized_continued_fraction.int_fract_pair generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+order_dual.partial_order.dual_dual 
+normed_field.nnnorm_fpow 
+has_fpower_series_at.is_O_sub_partial_sum_pow asymptotics filter set
+list.nth_take_of_succ 
+category_theory.functor.ess_image_inclusion_map 
+nnreal.of_real_prod_of_nonneg nnreal
+polynomial.mem_span_C_coeff polynomial finset add_monoid_algebra finsupp set submodule polynomial
+linear_equiv.isometry_of_inner_to_linear_equiv 
+formal_multilinear_series.is_o_one_of_lt_radius 
+linear_isometry_equiv.map_zero 
+ennreal.ess_sup_eq_zero_iff 
+list.lt_length_right_of_zip 
+times_cont_diff_at.times_cont_mdiff_at 
+is_null_measurable_iff_ae measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+set.Iic_union_Ioc set set set
+measurable_equiv.coe_mk 
+linear_isometry_equiv.ediam_image 
+finset.coe_bUnion finset function set
+simple_graph.card_common_neighbors_lt_card_verts 
+ordnode.sized.pos ordnode
+measure_theory.Lp.mem_Lp_const_smul measure_theory.Lp measure_theory.Lp measure_theory
+ordnode.raised.add_left ordnode
+add_pow_two int
+list.nth_succ_scanl list list nat function
+parser.valid.pure parser.valid parser parser parser parser parse_result
+list.enum_eq_zip_range 
+span_singleton_inv 
+lie_subalgebra.coe_to_submodule_eq 
+mem_emetric_ball_0_iff metric filter has_norm
+abs_eq_neg_self 
+measure_theory.measure.univ_pi_Ico_ae_eq_Icc measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+to_nat_many_one_reducible 
+general_commutator_le subgroup
+list.sorted.nodup 
+minpoly.aeval minpoly minpoly function set polynomial
+measure_theory.subset_to_measurable 
+regular_expression.rmatch_iff_matches regular_expression
+parser.valid.many1 
+fin.strict_mono_unique 
+ae_seq.ae_seq_set_is_measurable 
+real.times_cont_diff_at_arccos_iff real filter set
+list.nth_le_zero_scanl list list nat function
+general_commutator_comm subgroup
+is_primitive_root.minpoly_dvd_pow_mod is_primitive_root is_primitive_root minpoly finset polynomial
+ennreal.measurable_div 
+set.Union_eq_univ_iff set tactic auto function set
+simple_graph.compl_neighbor_set_disjoint simple_graph simple_graph finset
+filter.tendsto.neg_mul_at_top classical filter topological_space function set
+composition.ne_single_iff composition list
+list.reduce_option_singleton list nat function
+homeomorph.preimage_image 
+continuous_multilinear_map.to_multilinear_map_smul 
+commutator_def' subgroup
+ennreal.limsup_const_mul ennreal filter
+ordnode.merge_node 
+isometric.comp_continuous_iff 
+denoms_clearable_of_nat_degree_le 
+category_theory.SheafOfTypes_bot_equiv_inverse_obj_coe 
+concave_on_open_of_deriv2_nonpos asymptotics metric filter continuous_linear_map set
+ae_measurable_congr 
+closed_embedding.measurable_inv_fun measurable_space classical filter topological_space set measure_theory
+strict_mono_pow_bit1 nat int
+homeomorph.inducing homeomorph filter set
+order.ideal.bot_mem 
+measure_theory.ae_eq_dirac measure_theory measurable_space classical filter measure_theory.measure function set
+generalized_continued_fraction.terminates_iff_rat 
+multilinear_map.bound_of_shell multilinear_map metric finset
+linear_map.dfinsupp_sum_apply 
+filter.limsup_const_bot filter filter filter set
+ae_seq.measure_compl_ae_seq_set_eq_zero ae_seq measure_theory
+parser.valid.ch 
+order_iso.liminf_apply 
+subgroup.le_normal_closure 
+set.Ioo_union_Ioi' set set set
+finset.Inter_mem_sets 
+asymptotics.is_O.eq_zero_imp 
+category_theory.coev_exp_comparison category_theory category_theory.category category_theory.limits category_theory.cartesian_closed
+lie_algebra.morphism.range_coe 
+language.mul_self_star_comm language
+linear_map.bijective_or_eq_zero linear_map
+list.nodup.coe_nth_le_equiv_apply 
+measure_theory.snorm'_add_lt_top_of_le_one measure_theory measure_theory measure_theory
+list.nth_le_zip 
+witt_vector.to_zmod_pow_compat witt_vector truncated_witt_vector
+measurable_equiv.coe_symm_mk 
+language.mem_add language
+measure_theory.lintegral_count' measure_theory measure_theory filter finset measure_theory.measure encodable function set measure_theory.simple_func ennreal
+category_theory.SheafOfTypes_bot_equiv_counit_iso 
+ordnode.bounded.trans_left 
+linear_isometry_equiv.map_smul 
+closure_operator.closure_union_closure_le 
+same_sub_div set
+parser.valid.fix 
+filter.le_map_of_right_inverse filter interactive tactic list set
+ordnode.size_balance_r ordnode
+concave_on_log_Ioi set real
+ordnode.sized.induction ordnode
+truncated_witt_vector.commutes_symm truncated_witt_vector truncated_witt_vector
+linear_isometry_equiv.antilipschitz 
+filter.tendsto.at_bot_mul classical filter topological_space function set
+finset.piecewise_compl finset
+neg_lt_self_iff 
+measure_theory.snorm_congr_ae measure_theory measure_theory
+is_atomic_iff_forall_is_atomic_Iic 
+smul_nat_eq_zero function
+formal_multilinear_series.radius_eq_top_of_forall_nnreal_is_O 
+category_theory.grothendieck_topology.is_closed_iff_close_eq_self category_theory.grothendieck_topology category_theory
+measure_theory.measure.regular.sigma_finite 
+perfection_map.comp_equiv' 
+parser.valid.str 
+set.Icc_union_Ici set set set
+set.Union_subtype 
+list.reduce_option_append 
+measure_theory.measure.pi_Ioi_ae_eq_pi_Ici 
+category_theory.grothendieck_topology.le_close 
+sum.update_inr_comp_inl 
+ordnode.insert'_eq_insert_with ordnode ordnode
+category_theory.limits.prod_comparison_snd_assoc 
+lie_algebra.derived_series_of_ideal_le_self 
+category_theory.functor.to_ess_image_comp_essential_image_inclusion_inv_app 
+category_theory.over_to_coalgebra_map_f 
+ideal.quotient_map_injective' ideal ideal function
+real.volume_pi_Ioo_to_real real classical filter set ennreal measure_theory
+ennreal.eventually_le_limsup ennreal filter
+finset.bUnion_image finset finset nat function subtype multiset
+ordnode.bounded.mem_lt 
+category_theory.grothendieck_topology.covers_iff_mem_of_closed 
+lie_submodule.submodule_span_le_lie_span lie_submodule lie_submodule lie_submodule set
+is_galois.of_card_aut_eq_findim is_galois alg_equiv finite_dimensional
+linear_isometry_equiv.coe_inv 
+ess_sup_measure_zero measure_theory
+inv_pos_le_iff_one_le_mul 
+real.continuous_arcsin 
+pi_norm_lt_iff metric filter has_norm
+homeomorph.shear_mul_right_coe 
+real.volume_pi_Ico 
+ennreal.rpow_pos_of_nonneg ennreal filter real
+filter.eventually_le.rfl 
+parser.seq_left_eq_done parser parser parser parse_result
+filter.map_id' 
+equiv.prod_shear_symm_apply 
+nnreal.tsum_mul_left nnreal nnreal metric filter finset topological_space set
+list.chain_pmap_of_chain list nat
+complex.cos_add_mul_I complex is_absolute_value finset cau_seq complex real
+set.mk_preimage_prod_right_fn_eq_if set set function set
+measure_theory.measure.univ_pi_Ioo_ae_eq_Icc measure_theory.measure measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+neg_lt_iff_pos_add' 
+ordnode.all_balance' ordnode
+ulower.down_computable 
+enat.find_dom 
+exists_compact_mem_nhds 
+linear_isometry.antilipschitz 
+real.sin_arcsin' real filter set
+isometric.ediam_image 
+option.pmap_eq_map option option
+complete_lattice.well_founded_iff_is_Sup_finite_compact 
+category_theory.limits.coprod.functor_obj_obj 
+measure_theory.mem_ℒp.coe_fn_to_Lp 
+sigma_compact_space.of_countable 
+has_deriv_within_at.Iic_of_Iio 
+many_one_equiv_up 
+parser.sep_by_eq_done_nil parser parser parser parse_result
+parser.seq_right_eq_fail parser parser parser parse_result
+mv_power_series.coeff_monomial_same 
+linear_isometry.ext 
+pi_tensor_product.ext pi_tensor_product pi_tensor_product function
+finset.disjoint_bUnion_left finset finset nat function subtype multiset
+order_iso.is_atom_iff order_iso is_simple_lattice is_coatomistic is_atomic is_atomistic is_coatomic
+list.reduce_option_nil 
+finset.nat.prod_antidiagonal_eq_prod_range_succ finset.nat finset
+div_sub_one 
+measurable_equiv.map_symm_map measurable_equiv measure_theory.has_no_atoms measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+closure_operator.closure_eq_self_of_mem_closed 
+bot_general_commutator subgroup
+lt_neg_self_iff 
+is_Sup_finite_compact.well_founded 
+fderiv_within_of_mem_nhds asymptotics metric filter continuous_linear_map set
+measure_theory.mem_ℒp.snorm_mk_lt_top measure_theory
+units.inv_mk 
+formal_multilinear_series.comp_change_of_variables_sum formal_multilinear_series filter list formal_multilinear_series
+compl_eq_top 
+ordnode.dual_erase_min ordnode
+ordnode.valid'.node4_l_lemma₂ ordnode ordnode
+dihedral.order_of_sr dihedral
+ae_measurable_iff_measurable measure_theory.has_no_atoms measure_theory.measure_space measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+list.is_prefix.reduce_option 
+parser.guard_eq_done parser parser parser parse_result
+intermediate_field.alg_hom_mk_adjoin_splits' intermediate_field intermediate_field vector_space finite_dimensional polynomial
+submodule.orthogonal_orthogonal is_R_or_C has_inner filter inner_product_space real
+inv_closure 
+equiv.add_right_symm_apply 
+algebra_map_monotone 
+orthogonal_eq_inter is_R_or_C has_inner filter inner_product_space real
+polynomial.exists_coeff_not_mem_C_inverse 
+ordnode.size_dual ordnode
+ae_lt_of_ess_sup_lt 
+filter.eventually_all_finset 
+closure_operator.ext closure_operator
+min_mul_mul_left 
+real.tendsto_abs_tan_of_cos_eq_zero real filter set complex polynomial
+linear_isometry_equiv.apply_symm_apply 
+measure_theory.measure.pi_pi measure_theory.measure measure_theory measurable_equiv filter list function set measure_theory.outer_measure
+asymptotics.is_o_of_tendsto' 
+dfinsupp.sum_comm 
+set.Inter_eq_univ 
+list.sorted.coe_nth_le_iso_apply 
+is_atom.Iic 
+eq_sum_orthogonal_projection_self_orthogonal_complement is_R_or_C has_inner filter inner_product_space real
+mv_power_series.map_C 
+submodule.findim_add_inf_findim_orthogonal' is_R_or_C has_inner filter finite_dimensional inner_product_space real
+set.Ico_union_Ico' set set set
+mv_polynomial.is_symmetric.smul mv_polynomial.is_symmetric mv_polynomial.is_symmetric mv_polynomial equiv
+derived_series_succ 
+truncated_witt_vector.eq_of_le_of_cast_pow_eq_zero truncated_witt_vector
+lie_subalgebra.lie_mem 
+linear_isometry.coe_to_continuous_linear_map 
+nnreal.add_sub_eq_max nnreal nnreal
+finset.set_bInter_bUnion 
+finset.infi_bUnion 
+lie_ideal.incl_ideal_range lie_ideal lie_algebra set
+is_algebraic_iff_is_integral' 
+nnreal.mul_lt_of_lt_div nnreal nnreal
+ae_seq.fun_prop_of_mem_ae_seq_set ae_seq ae_seq measure_theory
+intermediate_field.lifts.exists_max_two intermediate_field intermediate_field vector_space finite_dimensional polynomial
+set.mk_preimage_prod 
+real.has_deriv_at_arcsin 
+category_theory.transfer_nat_trans_self_comm category_theory category_theory category_theory.category
+linear_isometry_equiv.refl_trans 
+ordnode.dual_balance_l ordnode
+dihedral.r_mul_r 
+measure_theory.snorm'_zero' measure_theory measure_theory measure_theory
+fin.cast_refl fin nat fin function
+measure_theory.lintegral_lintegral_mul_inv measure_theory measure_theory.measure topological_space function set
+finset.Ico.union finset.Ico finset nat multiset
+lie_algebra.morphism.range_subset_ideal_range 
+equiv.perm.trans_one 
+linear_isometry.lipschitz 
+real.measurable_arctan 
+is_coatom.Ici 
+nat.gcd_fib_add_self nat
+polynomial.induction_with_nat_degree_le polynomial finset finsupp polynomial
+measure_theory.snorm'_const' measure_theory measure_theory measure_theory
+real.sin_ne_zero_iff real filter set
+mul_inv_cancel_iff ring ideal
+order.ideal.ext 
+unique_diff_within_at_of_mem_nhds normed_field filter set
+quadratic_form.polar_neg_left quadratic_form quadratic_form
+has_deriv_within_at_Iio_iff_Iic asymptotics filter continuous_linear_map set
+left_vsub_midpoint 
+measure_theory.ite_ae_eq_of_measure_compl_zero measure_theory measure_theory.has_no_atoms measurable_space classical filter measure_theory.measure function set measure_theory.probability_measure
+minpoly.integer_dvd minpoly minpoly minpoly minpoly function set polynomial
+generalized_continued_fraction.of_terminates_iff_of_rat_terminates generalized_continued_fraction generalized_continued_fraction generalized_continued_fraction
+fin.mul_zero fin fin nat fin function set
+ordnode.dual_node3_l ordnode
+ordnode.sized.eq_node' ordnode
+filter.bInter_finset_mem_sets 
+finset.sup_eq_Sup finset order_dual multiset
+rel_hom.map_inf rel_hom function
+linear_isometry.ediam_range 
+ordnode.dual_node4_r ordnode
+lie_algebra.morphism.mem_ideal_range 
+prod.exists' 
+real.arccos_eq_pi real filter set
+category_theory.is_subterminal.def 
+parser.valid.foldr 
+pi_norm_const metric filter has_norm
+option.pmap_eq_some_iff option option
+set.bUnion_eq_univ_iff set tactic auto function set
+perfection.coeff_ne_zero_of_le 
+interval_integral.integral_deriv_mul_eq_sub interval_integral asymptotics classical filter topological_space continuous_linear_map set measure_theory
+parser.valid.eof 
+finset.coe_order_iso_of_fin_apply 
+monoid_hom.map_dfinsupp_prod 
+enat.dom_of_le_of_dom 
+regular_expression.add_rmatch_iff regular_expression
+equiv.perm.sign_trans_trans_symm 
+category_theory.is_subterminal_of_is_terminal 
+category_theory.obj.monad_μ_app 
+submodule.span_preimage_eq submodule submodule function set linear_map submodule
+linear_map.surjective_or_eq_zero linear_map
+fin_succ_equiv_zero 
+enat.lt_find enat enat roption
+top_ne_bot 
+le_mul_right 
+measure_theory.measure.caratheodory 
+subgroup.normal_closure_closure_eq_normal_closure 
+ordnode.valid.merge 
+one_sub_div 
+eventually_eq.countable_Inter 
+parser.failure_def 
+measurable_tprod_elim' 
+finset_disjoint_finset_opens_of_t2 filter finset set separated
+dfinsupp.prod_comm 
+pi_tensor_product.induction_on' pi_tensor_product pi_tensor_product function
+nat.fib_add nat
+category_theory.limits.pullback_comparison_comp_snd 
+add_submonoid.coe_add_self_eq 
+category_theory.over.epi_of_epi_left 
+list.pairwise.nodup 
+le_neg_iff_add_nonpos' 
+parser.decorate_errors_eq_fail parser parser parser parse_result
+has_fpower_series_on_ball.image_sub_sub_deriv_le asymptotics filter set
+option.join_map_eq_map_join option
+is_modular_lattice.sup_inf_sup_assoc 
+measure_theory.snorm_ae_eq_fun 
+linear_isometry_equiv.trans_refl 
+ordnode.valid_nil 
+min_le_mul_of_one_le_right 
+linear_equiv.nonempty_equiv_iff_lift_dim_eq 
+add_submonoid.subsingleton_iff 
+le_neg_self_iff 
+nat.succ_lt_succ_iff 
+real.measurable_arcsin 
+im_inner_eq_norm_sub_I_smul_mul_self_sub_norm_add_I_smul_mul_self_div_four is_R_or_C has_inner filter inner_product_space real
+right_sub_midpoint 
+algebraic_geometry.polynomial.is_open_map_comap_C algebraic_geometry.polynomial algebraic_geometry set ideal prime_spectrum polynomial
+linear_map.map_sub₂ 
+category_theory.obj.comonad_δ_app 
+complex.tendsto_abs_tan_at_top 
+equiv.equiv_congr_symm equiv function
+category_theory.functor.ess_image_eq_of_nat_iso 
+subgroup.nontrivial_iff 
+matrix.dot_product_eq_zero 
+complex.tan_eq_zero_iff complex filter set
+is_measurable.pi_fintype 
+composition.eq_ones_iff_le_length composition list
+parser.and_then_eq_bind 
+category_theory.has_limit_of_reflective category_theory category_theory category_theory.monad.forget_creates_colimits category_theory.category category_theory.limits
+real.continuous_at_arcsin 
+category_theory.algebra_to_under_map 
+ordnode.valid'.valid 
+formal_multilinear_series.nnnorm_mul_pow_le_of_lt_radius formal_multilinear_series asymptotics filter set
+summable_sigma_of_nonneg metric classical filter finset topological_space set
+category_theory.grothendieck_topology.closed_iff_closed 
+real.range_arcsin real filter set
+equiv.perm.symm_mul 
+ordnode.balance_l_eq_balance' ordnode
+fin.mul_one fin fin nat fin function set
+is_measurable.Union_fintype 
+nsmul_eq_smul function
+ae_measurable_of_zero_measure measure_theory.has_no_atoms measure_theory.measure_space measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+add_monoid_hom.dfinsupp_sum_apply 
+continuous_linear_map.has_fpower_series_at 
+real.arcsin_le_iff_le_sin' real filter set
+list.nth_pmap list nat function
+sign_cases_of_C_mul_pow_nonneg nat int
+finset.prod_ite_index 
+is_primitive_root.minpoly_eq_pow_coprime is_primitive_root is_primitive_root minpoly finset polynomial
+constant_of_deriv_within_zero asymptotics metric filter continuous_linear_map set
+min_le_mul_of_one_le_left 
+regular_expression.zero_rmatch regular_expression
+perfection.pth_root_frobenius perfection
+real.strict_mono_incr_on_tan 
+subgroup.map_eq_bot_iff subgroup set
+real_inner_le_norm 
+multilinear_map.map_nonempty 
+simple_graph.degree_lt_card_verts simple_graph simple_graph simple_graph finset
+asymptotics.is_O_cofinite_iff asymptotics filter set
+parser.failure_eq_fail parser parser parser parse_result
+asymptotics.is_O_with.pow' asymptotics filter set
+set.preimage_inv_fun_of_not_mem set function
+measure_theory.ae_eq_zero_of_snorm'_eq_zero measure_theory measure_theory measure_theory
+orthogonal_projection_norm_le is_R_or_C has_inner filter inner_product_space real
+regular_expression.one_def 
+nat.norm_cast_le metric filter has_norm
+add_monoid_hom.isometry_iff_norm add_monoid_hom function set
+ordnode.sized.node' 
+ennreal.lt_rpow_one_div_iff ennreal filter real
+measure_theory.has_finite_integral_prod_iff' measure_theory measure_theory measurable_space filter measure_theory.measure topological_space function set ennreal real measure_theory
+summable.tsum_mul_right 
+is_primitive_root.nth_roots_one_eq_bUnion_primitive_roots' is_primitive_root is_primitive_root finset polynomial
+set.singleton_pi' 
+measure_theory.tendsto_lintegral_of_dominated_convergence' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+real.pi_div_two_le_arcsin 
+nnreal.summable_sigma nnreal metric classical filter topological_space set
+is_O_pow_pow_of_le_left 
+category_theory.limits.prod_comparison_nat_iso_hom_app 
+prime_spectrum.is_open_basic_open 
+list.lt_length_left_of_zip 
+list.zip_of_prod list nat
+ennreal.rpow_left_bijective 
+truncated_witt_vector.commutes 
+order_iso.trans_apply 
+probability_theory.Indep.Indep_sets probability_theory probability_theory measurable_space measure_theory
+orthogonal_projection_fn_norm_sq is_R_or_C has_inner filter inner_product_space real
+category_theory.monad.comparison_obj_A 
+category_theory.SheafOfTypes_to_presheaf_map 
+equiv.perm.is_cycle.inv equiv.perm equiv.perm equiv finset function
+finset.sum_bUnion 
+solvable_of_surjective subgroup
+category_theory.limits.prod_comparison_nat_trans_app 
+ae_measurable.add_measure ae_measurable measure_theory.has_no_atoms measure_theory.measure_space measurable_space equiv classical filter measure_theory.measure function set measure_theory.probability_measure measure_theory
+ordnode.erase_max.valid ordnode ordnode
+category_theory.functor.obj_mem_ess_image 
+finset.product_eq_bUnion finset finset nat function subtype multiset
+quotient_map.surjective 
+measure_theory.measure.ae_le_set_pi 
+set.Iic_union_Ioc' set set set
+option.pbind_eq_bind option option
+list.reduce_option_cons_of_none list nat function
+category_theory.SheafOfTypes_bot_equiv_functor 
+is_primitive_root.is_roots_of_minpoly is_primitive_root is_primitive_root minpoly finset polynomial
+list.tprod.elim_mk list.tprod list list function
+linear_isometry.norm_map 
+finset.bUnion_subset_bUnion_of_subset_left finset finset nat function subtype multiset
+ideal.quotient.lift_comp_mk 
+mv_polynomial.C_surjective mv_polynomial mv_polynomial add_monoid_algebra finsupp function set
+is_atom.of_is_atom_coe_Iic 
+probability_theory.indep_sets.inter 
+truncated_witt_vector.card_zmod truncated_witt_vector truncated_witt_vector
+bot_eq_ff 
+real.measurable_arccos 
+measure_theory.tendsto_set_lintegral_zero measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+continuous_multilinear_map.to_multilinear_map_add 
+point_disjoint_finset_opens_of_t2 filter finset set separated
+homeomorph.preimage_closure homeomorph filter set
+many_one_reducible_to_nat nat.primrec function computable
+option.map_eq_none option
+category_theory.limits.map_lift_pullback_comparison category_theory.limits category_theory.limits category_theory.limits.wide_pullback_shape.hom category_theory.limits.walking_span.hom category_theory category_theory.limits.wide_pushout_shape.hom category_theory.limits.walking_cospan.hom
+set.Ici.coe_bot 
+set.pi_inter_compl set set function set
+equiv.prod_shear_apply 
+list.insert_nth_succ_nil 
+measurable.ennreal_inv 
+set.pi_congr 
+list.prefix_take_le_iff list nat function
+add_subgroup.nontrivial_iff 
+ordnode.dual_node3_r ordnode
+perfection.coeff_pth_root 
+ideal.polynomial.is_jacobson_polynomial_iff_is_jacobson ideal.polynomial ideal.polynomial ideal submonoid localization_map polynomial
+algebra.lsmul_coe 
+eventually_le.countable_Inter 
+formal_multilinear_series.radius_eq_top_of_eventually_eq_zero formal_multilinear_series asymptotics filter set
+measure_theory.ae_measurable_indicator_iff measure_theory measure_theory filter topological_space function set measure_theory
+complex.sin_add_mul_I complex is_absolute_value finset cau_seq complex real
+equiv.preimage_image 
+equiv.equiv_congr_trans equiv function
+lie_ideal.map_bracket_le lie_ideal lie_algebra set
+measure_theory.lintegral_liminf_le' measure_theory measure_theory filter finset function set measure_theory.simple_func ennreal
+ordnode.dual_rotate_r ordnode
+times_cont_mdiff_within_at_iff_target charted_space set smooth_manifold_with_corners
+set.subsingleton.is_compact 

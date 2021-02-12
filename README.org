@@ -1,0 +1,167 @@
+#+TITLE: The Lean Theorem Proving Environment
+* Setup instructions
+Make sure to install elan: https://www.github.com/kha/elan
+
+** Set up ~lean-tpe~ repository
+#+begin_src bash
+git clone git@github.com:jesse-michael-han/lean-tpe-public $LEAN_TPE_DIR
+
+cd $LEAN_TPE_DIR
+
+leanpkg configure
+
+leanproject get-mathlib-cache
+
+bash ./_target/deps/mathlib/scripts/mk_all.sh # make a file that imports all of mathlib
+
+leanpkg build
+#+end_src
+
+* Evaluation instructions
+The Lean scripts will dump JSON messages to a specified file, with a new message on each line. Each message encodes the history of a single proof search.
+
+** Run some toy examples
+
+*WARNING:* The error messages of the Lean scripts are currently extremely unhelpful. Make sure arguments are passed in correct order.
+
+*** Check that single-threaded baseline evaluation works
+
+#+begin_src
+# greedy strategy
+
+lean --run ./src/evaluation/greedy/baseline.lean ./test/dummy_decls2.names ./test/dummy_out_greedy_baseline.log 50 5 300 > ./test/dummy_out_greedy_baseline.out 2>&1
+
+# this should be 31
+cat ./test/dummy_out_greedy_baseline.log | grep | wc -l
+
+# this should be 0 (TODO(jesse): allow optional environment-setting)
+cat ./test/dummy_out_greedy_baseline.log | grep '"success":true' | wc -l
+
+# bfs strategy
+
+lean --run ./src/evaluation/bfs/baseline.lean ./test/dummy_decls2.names ./test/dummy_out_bfs_baseline.log 50 25 50 5 300 > ./test/dummy_out_bfs_baseline.out 2>&1
+
+# this should be 31
+cat ./test/dummy_out_bfs_baseline.log | grep | wc -l
+
+# this should be 0 (TODO(jesse): allow optional environment-setting)
+cat ./test/dummy_out_bfs_baseline.log | grep '"success":true' | wc -l
+#+end_src
+
+*** Check that single-threaded GPT-f evaluation works
+
+#+begin_src
+# greedy strategy
+
+# args: decl_names logfile max_tokens temp top_p n best_of fuel engine_id api_key
+lean --run ./src/evaluation/greedy/gptf.lean ./test/dummy_decls2.names ./test/dummy_out_greedy_gptf.log 256 0.7 1.0 10 10 50 formal-lean-wm-to-tt-m1-m2-v4-c4 $OPENAI_API_KEY 5 300 > ./test/dummy_out_greedy_gptf.out 2>&1
+
+# should be 31
+cat ./test/dummy_out_greedy_gptf.log | grep | wc -l
+
+# should be ~20
+cat ./test/dummy_out_greedy_gptf.log | grep '"success":true' | wc -l
+
+# bfs strategy
+
+# args: decl_names logfile max_tokens temp top_p n best_of fuel max_width max_depth engine_id api_key
+lean --run ./src/evaluation/bfs/gptf.lean ./test/dummy_decls2.names ./test/dummy_out_bfs_gptf.log 256 0.7 1.0 10 10 50 10 25 formal-lean-wm-to-tt-m1-m2-v4-c4 $OPENAI_API_KEY 5 300 > ./test/dummy_out_bfs_gptf.out 2>&1
+
+# should be 31
+cat ./test/dummy_out_bfs_gptf.log | grep | wc -l
+
+# should be ~24
+cat ./test/dummy_out_bfs_gptf.log | grep '"success":true' | wc -l
+#+end_src
+
+*** Check that the Python script wrapper works
+The Python script wraps the Lean scripts and runs them in parallel, sharding a list of theorems.
+#+begin_src bash
+usage: parallel_eval.py [-h] [--max_tokens MAX_TOKENS]
+                        [--temperature TEMPERATURE] [--top_p TOP_P] [--n N]
+                        [--best_of BEST_OF] [--fuel FUEL]
+                        [--engine_id ENGINE_ID] [--api_key API_KEY]
+                        [--nbest NBEST] [--beam BEAM]
+                        [--model_path MODEL_PATH] [--data_path DATA_PATH]
+                        [--entry_pt ENTRY_PT] [--max_width MAX_WIDTH]
+                        [--max_depth MAX_DEPTH] [--lean_threads LEAN_THREADS]
+                        [--lean_timeout LEAN_TIMEOUT] [--api API]
+                        [--search_strategy SEARCH_STRATEGY]
+                        [--tac_timeout TAC_TIMEOUT]
+                        [--global_timeout GLOBAL_TIMEOUT]
+                        n_workers decls_per_shard decls_file dest_dir
+
+positional arguments:
+  n_workers
+  decls_per_shard
+  decls_file
+  dest_dir
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --max_tokens MAX_TOKENS
+  --temperature TEMPERATURE
+  --top_p TOP_P
+  --n N
+  --best_of BEST_OF
+  --fuel FUEL
+  --engine_id ENGINE_ID
+  --api_key API_KEY
+  --nbest NBEST
+  --beam BEAM
+  --model_path MODEL_PATH
+  --data_path DATA_PATH
+  --entry_pt ENTRY_PT
+  --max_width MAX_WIDTH
+                        maximum size of search queue for BFS
+  --max_depth MAX_DEPTH
+                        maximum distance of search node from root before the
+                        search queue rejects it
+  --lean_threads LEAN_THREADS
+                        number of threads per Lean process
+  --lean_timeout LEAN_TIMEOUT
+                        deterministic timeout for Lean process in millions of
+                        allocations. Interactive default is one. Default is
+                        unbounded (none).
+  --api API             gptf|baseline|fairseq
+  --search_strategy SEARCH_STRATEGY
+                        greedy|bfs
+  --tac_timeout TAC_TIMEOUT
+                        tactic execution timeout (s)
+  --global_timeout GLOBAL_TIMEOUT
+                        proof search timeout (s)
+#+end_src
+
+Check that the baseline version works. Inspect some of the output files.
+#+begin_src bash
+python ./scripts/parallel_eval.py 4 8 ./test/dummy_decls2.names ./test_parallel/baseline/ --fuel 50 --api baseline --search_strategy greedy --tac_timeout 5 --global_timeout 300
+#+end_src
+
+Check that the greedy GPT-f version works. Inspect some of the output files.
+
+#+begin_src bash
+python ./scripts/parallel_eval.py 4 8 ./test/dummy_decls2.names ./test_parallel/gptf_greedy/ --max_tokens 256 --temperature 0.7 --top_p 1.0 --n 10 --best_of 10 --fuel 50 --engine_id formal-lean-wm-to-tt-m1-m2-v4-c4 --api_key $OPENAI_API_KEY --api gptf --search_strategy greedy --tac_timeout 5 --global_timeout 300
+#+end_src
+
+Check that the BFS GPT-f version works. Inspect some of the output files.
+
+#+begin_src bash
+python ./scripts/parallel_eval.py 4 8 ./test/dummy_decls2.names ./test_parallel/gptf_bfs/ --max_tokens 256 --temperature 0.7 --top_p 1.0 --n 10 --best_of 10 --fuel 50 --max_width 10 --max_depth 50 --engine_id formal-lean-wm-to-tt-m1-m2-v4-c4 --api_key $OPENAI_API_KEY --api gptf --search_strategy bfs --tac_timeout 5 --global_timeout 300
+#+end_src
+
+* Data processing
+** Removing non-theorems
+#+begin_src bash
+lean --run ./src/tools/filter_defs.lean $ORIGINAL_NAMES_FILE $NEW_NAMES_FILE
+#+end_src
+
+** Shuffling names files
+#+begin_src bash
+python ./scripts/shuffle_lines.py $NAMES_FILE $SHUFFLED_NAMES_FILE # optional seed -- seed 12387
+#+end_src
+
+* Guidelines for contributing
+Ensure that the following invariants hold before making a PR or pushing to ~master~:
+ - ~leanpkg build~ does not raise any errors.
+ - [[*Check that single-threaded GPT-f evaluation works][single-threaded evaluation]] does not fail (check the logs)
+ - your API key is not in the source code

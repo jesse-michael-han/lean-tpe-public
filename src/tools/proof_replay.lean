@@ -66,20 +66,6 @@ meta def buggy_example_msg : tactic json := json.parse $
       ]
     }"
 
-meta def validate_proof (pf : expr) : tactic unit := do {
-  let tac (e : expr) : tactic unit := do {
-    mk_tactic_state >>= tactic.write,
-    guard (bnot pf.has_meta_var),
-    tactic.guard_sorry e,
-    tactic.type_check e
-  },
-  result ← tactic.capture' (tac pf),
-  match result with
-  | (interaction_monad.result.success r s') := pure ()
-  | (interaction_monad.result.exception f p s') := tactic.fail "[validate_proof] ERROR: VALIDATION FAILED"
-  end
-}
-
 meta def replay_proof (namespaces : list name := []) :
   (name × list string) → tactic expr := λ ⟨decl_name, tacs⟩, do {
   env₀ ← tactic.get_env,

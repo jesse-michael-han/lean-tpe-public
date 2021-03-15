@@ -318,6 +318,21 @@ meta def compare_tactic_state : tactic_state → tactic_state → tactic bool :=
     --     tactic.result >>= (λ x, tactic.type_check x <|>
     --       eval_trace format! "[greedy_proof_search_step] WARNING: result failed typechecking" *> tactic.failed)
     --   },
+
+meta def validate_proof (pf : expr) : tactic unit := do {
+  let tac (e : expr) : tactic unit := do {
+    mk_tactic_state >>= tactic.write,
+    guard (bnot pf.has_meta_var),
+    tactic.guard_sorry e,
+    tactic.type_check e
+  },
+  result ← tactic.capture' (tac pf),
+  match result with
+  | (interaction_monad.result.success r s') := pure ()
+  | (interaction_monad.result.exception f p s') := tactic.fail "[validate_proof] ERROR: VALIDATION FAILED"
+  end
+}
+
 meta def tactic_state.is_done (state : tactic_state) : tactic bool := do {
   ts ← tactic.read,
   result_flag ← do {
@@ -1080,12 +1095,20 @@ meta def bfs_core
   let fuel_exhausted_callback : state_t BFSState tactic (bool × BFSState) := do {
     state_t.modify has_mark_fuel_exhausted.mark_fuel_exhausted,
     prod.mk ff <$> get
-  } in
-  iterate_until
-    (bfs_step api serialize_ts decode_response)
-      (λ x, pure $ x.fst = tt)
-        fuel
-          fuel_exhausted_callback *> pure ()
+  } in do {
+    [g] ← state_t.lift tactic.get_goals,
+    iterate_until
+      (bfs_step api serialize_ts decode_response)
+        (λ x, pure $ x.fst = tt)
+          fuel
+            fuel_exhausted_callback *> pure (),
+    -- monad_lift $ do {
+    --   pf ← tactic.get_assignment g,
+      
+    -- }
+    pf ← monad_lift $ tactic.get_assignment g,
+    monad_lift (validate_proof pf) <|> (modify $ λ σ, {success := ff, ..σ})
+  }
 
 meta def bfs
   {input_format : Type}

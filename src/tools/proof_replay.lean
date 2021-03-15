@@ -2,6 +2,8 @@ import utils
 import evaluation
 import all
 import basic.table
+import system.io
+
 section parse_nm
 
 meta def parse_nm : string → tactic name := λ nm_str, do {
@@ -36,7 +38,7 @@ meta def get_decl_name_and_tactics (msg : json) : tactic $ name × list string :
 --   msg ← option.to_monad $ json.parse " { \"task_id\":\"and.comm\", \"tactics\":[\"intros\", \"refine ⟨_,_⟩; intro h; cases h; exact and.intro ‹_› ‹_›\"]}",
 --   x@⟨nm, tacs⟩ ← io.run_tactic' (get_decl_name_and_tactics msg),
 --   io.put_str_ln' format! "{x}"
-  
+
 -- }
 
 example : ∀ {a b : Prop}, a ∧ b ↔ b ∧ a :=
@@ -54,26 +56,61 @@ meta def example_msg : tactic json := json.parse
       ]
     }"
 
+meta def buggy_example_msg : tactic json := json.parse $
+  " { \"task_id\":\"mvqpf.cofix.bisim\",
+      \"tactics\":[
+        \"intros x y h\",
+        \"rintros x₀ y₀ q₀ hr\",
+        \"intros x y h\",
+        \"induction x using fin2.elim0\"
+      ]
+    }"
 
--- replays proof, gets proof term
-meta def replay_proof (namespaces : list name := []) : (name × list string) → tactic expr := λ ⟨decl_name, tacs⟩, do {
-  env ← tactic.get_env,
-  goal ← declaration.type <$> env.get decl_name,
-  set_env_at_decl decl_name,
-  add_open_namespaces namespaces,
-  tactic.set_goal_to goal,
+meta def validate_proof (pf : expr) : tactic unit := do {
+  let tac (e : expr) : tactic unit := do {
+    mk_tactic_state >>= tactic.write,
+    guard (bnot pf.has_meta_var),
+    tactic.guard_sorry e,
+    tactic.type_check e
+  },
+  result ← tactic.capture' (tac pf),
+  match result with
+  | (interaction_monad.result.success r s') := pure ()
+  | (interaction_monad.result.exception f p s') := tactic.fail "[validate_proof] ERROR: VALIDATION FAILED"
+  end
+}
+
+meta def replay_proof (namespaces : list name := []) :
+  (name × list string) → tactic expr := λ ⟨decl_name, tacs⟩, do {
+  env₀ ← tactic.get_env,
+  tsd ← get_tsd_at_decl decl_name,
+  env ← get_env_at_decl decl_name,
+  tactic.set_env_core env,
+  rebuild_tactic_state tsd,
   [g] ← tactic.get_goals,
+  goal ← tactic.infer_type g,
   tactic.trace format! "[replay_proof] TACTICS: {tacs}",
   for_ tacs $ λ tac_str, do {
-    -- tactic.read >>= λ x, tactic.trace format! "TS BEFORE TAC {tac_str}: {x}",
     tac ← parse_itactic tac_str,
     tac
   },
-  (tactic.try $ tactic.interactive.recover *> tactic.interactive.trivial) *> tactic.done *> tactic.get_assignment g <|> tactic.fail format! "[replay_proof] ERROR: NOT DONE WITH {decl_name}"
+
+  pf ← tactic.get_assignment g >>= tactic.instantiate_mvars,
+  tactic.set_env_core env₀,
+  tactic.done <|> tactic.fail format! "[replay_proof] ERROR: NOT DONE WITH {decl_name}",
+  validate_proof pf,
+  pure pf
 }
 
+-- this should pass all checks
 -- run_cmd do {
 --   msg ← example_msg,
+--   get_decl_name_and_tactics msg >>= replay_proof
+-- }
+
+-- this should pass `done` check but fail validation
+-- run_cmd do {
+--   msg ← buggy_example_msg,
 --   get_decl_name_and_tactics msg >>= replay_proof
 -- }
 
@@ -97,7 +134,7 @@ meta def build_namespace_index (decls_file : string) : io $ dict name (list name
   -- io.put_str_ln' format!"NMS: {nms}",
 
   -- additionally filter out non-theorems
-  -- TODO(jesse): do this offline in a separate Lean script
+  -- TODO(): do this offline in a separate Lean script
   let nms_unfiltered_len := nms.length,
   nms ← io.run_tactic' $ do {
     env ← tactic.get_env,
@@ -132,17 +169,19 @@ meta def main : io unit := do {
     old_pf_term ← tactic.get_proof_from_env decl_nm,
     tactic.trace format! "PROCESSING DECL_NM {decl_nm}",
     env₀ ← tactic.get_env,
-    open_ns ← ns_index.get decl_nm,
-    new_pf_term ← replay_proof open_ns x,
-    tactic.set_env_core env₀,
-    old_size ← pf_term_size old_pf_term,
-    tactic.trace format! "OLD SIZE: {old_size}",
-    new_size ← pf_term_size new_pf_term,
-    tactic.trace format! "NEW SIZE: {new_size}",
-    when (new_size < old_size) $ tactic.unsafe_run_io $ do {
-      io.put_str_ln "FOUND SMALLER PROOF",
-      io.fs.put_str_ln_flush dest_handle $
-        json.unparse $ mk_shorter_proof_jsonline old_size new_size decl_nm tacs
-    }
+    tactic.try $ do {
+      open_ns ← ns_index.get decl_nm,
+      new_pf_term ← replay_proof open_ns x,
+      tactic.set_env_core env₀,
+      old_size ← pf_term_size old_pf_term,
+      tactic.trace format! "OLD SIZE: {old_size}",
+      new_size ← pf_term_size new_pf_term,
+      tactic.trace format! "NEW SIZE: {new_size}",
+      when (new_size < old_size) $ tactic.unsafe_run_io $ do {
+        io.put_str_ln "FOUND SMALLER PROOF",
+        io.fs.put_str_ln_flush dest_handle $
+          json.unparse $ mk_shorter_proof_jsonline old_size new_size decl_nm tacs
+      }},
+    tactic.set_env_core env₀
   }
 }

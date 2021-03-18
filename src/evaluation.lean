@@ -338,12 +338,7 @@ meta def tactic_state.is_done (state : tactic_state) : tactic bool := do {
   result_flag ← do {
     tactic.write state,
     (do {
-       tactic.done,
-       (tactic.result >>= tactic.guard_sorry) <|>
-         eval_trace format! "[bfs_step] WARNING: result contains sorry" *> tactic.failed,
-       (tactic.result >>= tactic.type_check) <|>
-         eval_trace format! "[bfs_step] WARNING: result failed typechecking" *> tactic.failed,
-       pure tt
+       tactic.done *> pure tt
      }) <|> pure ff
   },
   tactic.write ts,
@@ -1096,18 +1091,27 @@ meta def bfs_core
     state_t.modify has_mark_fuel_exhausted.mark_fuel_exhausted,
     prod.mk ff <$> get
   } in do {
-    [g] ← state_t.lift tactic.get_goals,
+    ts₀ ← monad_lift $ tactic.read,
+    [g] ← monad_lift $ tactic.get_goals,
     iterate_until
       (bfs_step api serialize_ts decode_response)
         (λ x, pure $ x.fst = tt)
           fuel
             fuel_exhausted_callback *> pure (),
-    -- monad_lift $ do {
-    --   pf ← tactic.get_assignment g,
-      
-    -- }
-    pf ← monad_lift $ tactic.get_assignment g,
-    monad_lift (validate_proof pf) <|> (modify $ λ σ, {success := ff, ..σ})
+    σ ← get,
+    when σ.success $
+    do {pf ← monad_lift $ tactic.get_assignment g >>= tactic.instantiate_mvars,
+    (monad_lift (do {-- tactic.set_goals [g], 
+    pf ← tactic.get_assignment g >>= tactic.instantiate_mvars,
+    tgt ← tactic.infer_type pf,
+    ts₁ ← tactic.read,
+    tactic.write ts₀, -- important to backtrack to the old state for validation
+    validate_proof pf,
+    tactic.write ts₁
+    }) <|>
+      (do monad_lift (eval_trace "[bfs_core] WARNING: VALIDATE_PROOF FAILED"),
+       modify $ λ σ, {success := ff, ..σ}))
+    }
   }
 
 meta def bfs

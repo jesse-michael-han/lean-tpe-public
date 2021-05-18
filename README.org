@@ -32,7 +32,7 @@ The Lean scripts will dump JSON messages to a specified file, with a new message
 lean --run ./src/evaluation/greedy/baseline.lean ./test/dummy_decls2.names ./test/dummy_out_greedy_baseline.log 50 5 300 > ./test/dummy_out_greedy_baseline.out 2>&1
 
 # this should be 31
-cat ./test/dummy_out_greedy_baseline.log | grep | wc -l
+cat ./test/dummy_out_greedy_baseline.log | wc -l
 
 # this should be 0 (TODO(jesse): allow optional environment-setting)
 cat ./test/dummy_out_greedy_baseline.log | grep '"success":true' | wc -l
@@ -42,7 +42,7 @@ cat ./test/dummy_out_greedy_baseline.log | grep '"success":true' | wc -l
 lean --run ./src/evaluation/bfs/baseline.lean ./test/dummy_decls2.names ./test/dummy_out_bfs_baseline.log 50 25 50 5 300 > ./test/dummy_out_bfs_baseline.out 2>&1
 
 # this should be 31
-cat ./test/dummy_out_bfs_baseline.log | grep | wc -l
+cat ./test/dummy_out_bfs_baseline.log | wc -l
 
 # this should be 0 (TODO(jesse): allow optional environment-setting)
 cat ./test/dummy_out_bfs_baseline.log | grep '"success":true' | wc -l
@@ -57,7 +57,7 @@ cat ./test/dummy_out_bfs_baseline.log | grep '"success":true' | wc -l
 lean --run ./src/evaluation/greedy/gptf.lean ./test/dummy_decls2.names ./test/dummy_out_greedy_gptf.log 256 0.7 1.0 10 10 50 formal-lean-wm-to-tt-m1-m2-v4-c4 $OPENAI_API_KEY 5 300 > ./test/dummy_out_greedy_gptf.out 2>&1
 
 # should be 31
-cat ./test/dummy_out_greedy_gptf.log | grep | wc -l
+cat ./test/dummy_out_greedy_gptf.log | wc -l
 
 # should be ~20
 cat ./test/dummy_out_greedy_gptf.log | grep '"success":true' | wc -l
@@ -68,7 +68,7 @@ cat ./test/dummy_out_greedy_gptf.log | grep '"success":true' | wc -l
 lean --run ./src/evaluation/bfs/gptf.lean ./test/dummy_decls2.names ./test/dummy_out_bfs_gptf.log 256 0.7 1.0 10 10 50 10 25 formal-lean-wm-to-tt-m1-m2-v4-c4 $OPENAI_API_KEY 5 300 > ./test/dummy_out_bfs_gptf.out 2>&1
 
 # should be 31
-cat ./test/dummy_out_bfs_gptf.log | grep | wc -l
+cat ./test/dummy_out_bfs_gptf.log | wc -l
 
 # should be ~24
 cat ./test/dummy_out_bfs_gptf.log | grep '"success":true' | wc -l

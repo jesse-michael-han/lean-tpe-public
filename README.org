@@ -1,6 +1,7 @@
 #+TITLE: The Lean Theorem Proving Environment
 * Setup instructions
 Make sure to install elan: https://www.github.com/kha/elan
+leanproject can be installed with mathlibtools: https://pypi.org/project/mathlibtools/0.0.6/
 
 ** Set up ~lean-tpe~ repository
 #+begin_src bash
